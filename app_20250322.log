@@ -1,0 +1,4 @@
+2025-03-22 13:11:28,293 - INFO - 初始化窗口大小: 1200x900
+2025-03-22 13:11:29,195 - INFO - 界面初始化完成
+2025-03-22 13:12:56,957 - DEBUG - Starting new HTTPS connection (1): api.deepseek.com:443
+2025-03-22 13:12:57,282 - DEBUG - https://api.deepseek.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None

@@ -1,0 +1,1980 @@
+2025-03-03 20:54:00,957 - INFO - 用户文本输入内容:
+请生成一份关于人工智能的PPT
+2025-03-03 20:54:00,958 - ERROR - 生成失败: 'PPTGenerator' object has no attribute 'parse_input'
+Traceback (most recent call last):
+  File "W:\PY\ZNTppt\main.py", line 169, in run_generation
+    structured_data = self.generator.parse_input(content)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'PPTGenerator' object has no attribute 'parse_input'
+2025-03-03 21:04:18,748 - INFO - 用户文本输入内容:
+请生成一份关于人工智能的PPT
+2025-03-03 21:04:18,754 - DEBUG - Starting new HTTPS connection (1): api.deepseek.com:443
+2025-03-03 21:04:19,326 - DEBUG - https://api.deepseek.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+2025-03-03 21:04:46,522 - DEBUG - API生成内容:
+```markdown
+# 人工智能：现状与未来
+
+---
+
+## 1. 人工智能概述
+- **定义与背景**  
+  - 人工智能（AI）的定义  
+  - 发展历程：从图灵测试到深度学习  
+  - {data:ai_evolution_timeline}  
+
+- **主要技术分支**  
+  - 机器学习（ML）  
+  - 自然语言处理（NLP）  
+  - 计算机视觉（CV）  
+
+---
+
+## 2. 人工智能的应用领域
+- **商业与金融**  
+  - 智能客服与自动化流程  
+  - 金融风控与投资分析  
+  - {data:ai_in_finance_growth_rate}  
+
+- **医疗与健康**  
+  - 疾病诊断与预测  
+  - 药物研发与个性化治疗  
+  - {data:ai_in_healthcare_market_size}  
+
+- **交通与物流**  
+  - 自动驾驶技术  
+  - 智能物流与供应链优化  
+
+---
+
+## 3. 人工智能的市场与趋势
+- **全球市场规模**  
+  - 当前市场规模与预测  
+  - {data:global_ai_market_size}  
+
+- **主要驱动因素**  
+  - 数据爆炸与计算能力提升  
+  - 政策支持与投资增长  
+
+- **未来趋势**  
+  - 边缘计算与AI结合  
+  - 伦理与隐私问题的挑战  
+
+---
+
+## 4. 人工智能的挑战与风险
+- **技术挑战**  
+  - 数据质量与标注问题  
+  - 模型可解释性与透明性  
+
+- **社会与伦理问题**  
+  - 就业替代与技能转型  
+  - 算法偏见与公平性  
+  - {data:ai_job_displacement_forecast}  
+
+---
+
+## 5. 人工智能的未来展望
+- **技术突破方向**  
+  - 通用人工智能（AGI）的可能性  
+  - 量子计算与AI的结合  
+
+- **社会影响与责任**  
+  - 人机协作的未来  
+  - 全球合作与治理框架  
+
+- {data:future_ai_scenarios}  
+
+---
+
+## 附录
+- 数据来源与参考文献  
+- 相关资源与进一步阅读  
+```
+2025-03-03 21:04:46,523 - WARNING - 第1行: 忽略无法解析的内容 -> ```markdown
+2025-03-03 21:04:46,523 - WARNING - 第4行: 忽略无法解析的内容 -> ---
+2025-03-03 21:04:46,523 - WARNING - 第17行: 忽略无法解析的内容 -> ---
+2025-03-03 21:04:46,523 - WARNING - 第34行: 忽略无法解析的内容 -> ---
+2025-03-03 21:04:46,523 - WARNING - 第49行: 忽略无法解析的内容 -> ---
+2025-03-03 21:04:46,523 - WARNING - 第61行: 忽略无法解析的内容 -> ---
+2025-03-03 21:04:46,523 - WARNING - 第74行: 忽略无法解析的内容 -> ---
+2025-03-03 21:04:46,523 - WARNING - 第79行: 忽略无法解析的内容 -> ```
+2025-03-03 21:04:46,523 - DEBUG - 结构化数据: {
+  "title": "\u4eba\u5de5\u667a\u80fd\uff1a\u73b0\u72b6\u4e0e\u672a\u6765",
+  "sections": [
+    {
+      "title": "1. \u4eba\u5de5\u667a\u80fd\u6982\u8ff0",
+      "content": [
+        "**\u5b9a\u4e49\u4e0e\u80cc\u666f**",
+        "\u4eba\u5de5\u667a\u80fd\uff08AI\uff09\u7684\u5b9a\u4e49",
+        "\u53d1\u5c55\u5386\u7a0b\uff1a\u4ece\u56fe\u7075\u6d4b\u8bd5\u5230\u6df1\u5ea6\u5b66\u4e60",
+        "{data:ai_evolution_timeline}",
+        "**\u4e3b\u8981\u6280\u672f\u5206\u652f**",
+        "\u673a\u5668\u5b66\u4e60\uff08ML\uff09",
+        "\u81ea\u7136\u8bed\u8a00\u5904\u7406\uff08NLP\uff09",
+        "\u8ba1\u7b97\u673a\u89c6\u89c9\uff08CV\uff09"
+      ]
+    },
+    {
+      "title": "2. \u4eba\u5de5\u667a\u80fd\u7684\u5e94\u7528\u9886\u57df",
+      "content": [
+        "**\u5546\u4e1a\u4e0e\u91d1\u878d**",
+        "\u667a\u80fd\u5ba2\u670d\u4e0e\u81ea\u52a8\u5316\u6d41\u7a0b",
+        "\u91d1\u878d\u98ce\u63a7\u4e0e\u6295\u8d44\u5206\u6790",
+        "{data:ai_in_finance_growth_rate}",
+        "**\u533b\u7597\u4e0e\u5065\u5eb7**",
+        "\u75be\u75c5\u8bca\u65ad\u4e0e\u9884\u6d4b",
+        "\u836f\u7269\u7814\u53d1\u4e0e\u4e2a\u6027\u5316\u6cbb\u7597",
+        "{data:ai_in_healthcare_market_size}",
+        "**\u4ea4\u901a\u4e0e\u7269\u6d41**",
+        "\u81ea\u52a8\u9a7e\u9a76\u6280\u672f",
+        "\u667a\u80fd\u7269\u6d41\u4e0e\u4f9b\u5e94\u94fe\u4f18\u5316"
+      ]
+    },
+    {
+      "title": "3. \u4eba\u5de5\u667a\u80fd\u7684\u5e02\u573a\u4e0e\u8d8b\u52bf",
+      "content": [
+        "**\u5168\u7403\u5e02\u573a\u89c4\u6a21**",
+        "\u5f53\u524d\u5e02\u573a\u89c4\u6a21\u4e0e\u9884\u6d4b",
+        "{data:global_ai_market_size}",
+        "**\u4e3b\u8981\u9a71\u52a8\u56e0\u7d20**",
+        "\u6570\u636e\u7206\u70b8\u4e0e\u8ba1\u7b97\u80fd\u529b\u63d0\u5347",
+        "\u653f\u7b56\u652f\u6301\u4e0e\u6295\u8d44\u589e\u957f",
+        "**\u672a\u6765\u8d8b\u52bf**",
+        "\u8fb9\u7f18\u8ba1\u7b97\u4e0eAI\u7ed3\u5408",
+        "\u4f26\u7406\u4e0e\u9690\u79c1\u95ee\u9898\u7684\u6311\u6218"
+      ]
+    },
+    {
+      "title": "4. \u4eba\u5de5\u667a\u80fd\u7684\u6311\u6218\u4e0e\u98ce\u9669",
+      "content": [
+        "**\u6280\u672f\u6311\u6218**",
+        "\u6570\u636e\u8d28\u91cf\u4e0e\u6807\u6ce8\u95ee\u9898",
+        "\u6a21\u578b\u53ef\u89e3\u91ca\u6027\u4e0e\u900f\u660e\u6027",
+        "**\u793e\u4f1a\u4e0e\u4f26\u7406\u95ee\u9898**",
+        "\u5c31\u4e1a\u66ff\u4ee3\u4e0e\u6280\u80fd\u8f6c\u578b",
+        "\u7b97\u6cd5\u504f\u89c1\u4e0e\u516c\u5e73\u6027",
+        "{data:ai_job_displacement_forecast}"
+      ]
+    },
+    {
+      "title": "5. \u4eba\u5de5\u667a\u80fd\u7684\u672a\u6765\u5c55\u671b",
+      "content": [
+        "**\u6280\u672f\u7a81\u7834\u65b9\u5411**",
+        "\u901a\u7528\u4eba\u5de5\u667a\u80fd\uff08AGI\uff09\u7684\u53ef\u80fd\u6027",
+        "\u91cf\u5b50\u8ba1\u7b97\u4e0eAI\u7684\u7ed3\u5408",
+        "**\u793e\u4f1a\u5f71\u54cd\u4e0e\u8d23\u4efb**",
+        "\u4eba\u673a\u534f\u4f5c\u7684\u672a\u6765",
+        "\u5168\u7403\u5408\u4f5c\u4e0e\u6cbb\u7406\u6846\u67b6",
+        "{data:future_ai_scenarios}"
+      ]
+    },
+    {
+      "title": "\u9644\u5f55",
+      "content": [
+        "\u6570\u636e\u6765\u6e90\u4e0e\u53c2\u8003\u6587\u732e",
+        "\u76f8\u5173\u8d44\u6e90\u4e0e\u8fdb\u4e00\u6b65\u9605\u8bfb"
+      ]
+    }
+  ]
+}
+2025-03-03 21:04:46,618 - ERROR - 封面创建失败: 封面页缺失标题占位符
+2025-03-03 21:04:46,618 - ERROR - 生成失败: 封面页缺失标题占位符
+Traceback (most recent call last):
+  File "W:\PY\ZNTppt\main.py", line 172, in run_generation
+    final_path = self.generator.build_ppt(structured_data, output_path)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "W:\PY\ZNTppt\main.py", line 354, in build_ppt
+    raise ValueError("封面页缺失标题占位符")
+ValueError: 封面页缺失标题占位符
+2025-03-03 21:19:31,111 - INFO - 用户文本输入内容:
+请生成一份关于人工智能的PPT
+2025-03-03 21:19:31,115 - DEBUG - Starting new HTTPS connection (1): api.deepseek.com:443
+2025-03-03 21:19:31,790 - DEBUG - https://api.deepseek.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+2025-03-03 21:19:58,568 - DEBUG - API生成内容:
+```markdown
+# 人工智能：现状与未来
+
+---
+
+## 1. 人工智能概述
+- **定义与背景**  
+  - 人工智能（AI）的定义  
+  - 发展历程：从图灵测试到深度学习  
+  - 当前应用领域：医疗、金融、自动驾驶等  
+
+- **核心技术**  
+  - 机器学习与深度学习  
+  - 自然语言处理（NLP）  
+  - 计算机视觉  
+
+---
+
+## 2. 人工智能市场现状
+- **市场规模**  
+  - 全球人工智能市场规模：{data:market_size}  
+  - 主要市场参与者：Google、Microsoft、OpenAI等  
+
+- **行业应用**  
+  - 医疗健康：AI辅助诊断与药物研发  
+  - 金融科技：智能投顾与风险管理  
+  - 制造业：智能工厂与预测性维护  
+
+---
+
+## 3. 人工智能的挑战与风险
+- **技术挑战**  
+  - 数据隐私与安全问题  
+  - 算法偏见与公平性  
+  - 模型的可解释性与透明度  
+
+- **社会影响**  
+  - 就业市场的变化：自动化与岗位替代  
+  - 伦理与法律问题：AI决策的责任归属  
+
+---
+
+## 4. 人工智能的未来趋势
+- **技术发展方向**  
+  - 强化学习与通用人工智能（AGI）  
+  - 边缘计算与AI的分布式应用  
+  - 量子计算对AI的潜在影响  
+
+- **行业前景**  
+  - 预计到{data:future_year}，AI市场规模将达到{data:future_market_size}  
+  - 新兴应用领域：教育、农业、能源等  
+
+---
+
+## 5. 总结与展望
+- **人工智能的机遇与挑战**  
+  - 机遇：提升效率、创新商业模式  
+  - 挑战：技术瓶颈、伦理问题  
+
+- **未来展望**  
+  - AI与人类协作的未来  
+  - 持续的技术创新与社会适应  
+
+---
+
+**数据插入标记说明**  
+- {data:market_size}：当前全球人工智能市场规模  
+- {data:future_year}：未来预测年份  
+- {data:future_market_size}：未来人工智能市场规模预测  
+```
+2025-03-03 21:19:58,569 - WARNING - 第1行: 忽略无法解析的内容 -> ```markdown
+2025-03-03 21:19:58,569 - WARNING - 第4行: 忽略无法解析的内容 -> ---
+2025-03-03 21:19:58,569 - WARNING - 第17行: 忽略无法解析的内容 -> ---
+2025-03-03 21:19:58,569 - WARNING - 第29行: 忽略无法解析的内容 -> ---
+2025-03-03 21:19:58,569 - WARNING - 第41行: 忽略无法解析的内容 -> ---
+2025-03-03 21:19:58,569 - WARNING - 第53行: 忽略无法解析的内容 -> ---
+2025-03-03 21:19:58,569 - WARNING - 第64行: 忽略无法解析的内容 -> ---
+2025-03-03 21:19:58,569 - WARNING - 第66行: 忽略无法解析的内容 -> **数据插入标记说明**
+2025-03-03 21:19:58,569 - WARNING - 第70行: 忽略无法解析的内容 -> ```
+2025-03-03 21:19:58,570 - DEBUG - 结构化数据: {
+  "title": "\u4eba\u5de5\u667a\u80fd\uff1a\u73b0\u72b6\u4e0e\u672a\u6765",
+  "sections": [
+    {
+      "title": "1. \u4eba\u5de5\u667a\u80fd\u6982\u8ff0",
+      "content": [
+        "**\u5b9a\u4e49\u4e0e\u80cc\u666f**",
+        "\u4eba\u5de5\u667a\u80fd\uff08AI\uff09\u7684\u5b9a\u4e49",
+        "\u53d1\u5c55\u5386\u7a0b\uff1a\u4ece\u56fe\u7075\u6d4b\u8bd5\u5230\u6df1\u5ea6\u5b66\u4e60",
+        "\u5f53\u524d\u5e94\u7528\u9886\u57df\uff1a\u533b\u7597\u3001\u91d1\u878d\u3001\u81ea\u52a8\u9a7e\u9a76\u7b49",
+        "**\u6838\u5fc3\u6280\u672f**",
+        "\u673a\u5668\u5b66\u4e60\u4e0e\u6df1\u5ea6\u5b66\u4e60",
+        "\u81ea\u7136\u8bed\u8a00\u5904\u7406\uff08NLP\uff09",
+        "\u8ba1\u7b97\u673a\u89c6\u89c9"
+      ]
+    },
+    {
+      "title": "2. \u4eba\u5de5\u667a\u80fd\u5e02\u573a\u73b0\u72b6",
+      "content": [
+        "**\u5e02\u573a\u89c4\u6a21**",
+        "\u5168\u7403\u4eba\u5de5\u667a\u80fd\u5e02\u573a\u89c4\u6a21\uff1a{data:market_size}",
+        "\u4e3b\u8981\u5e02\u573a\u53c2\u4e0e\u8005\uff1aGoogle\u3001Microsoft\u3001OpenAI\u7b49",
+        "**\u884c\u4e1a\u5e94\u7528**",
+        "\u533b\u7597\u5065\u5eb7\uff1aAI\u8f85\u52a9\u8bca\u65ad\u4e0e\u836f\u7269\u7814\u53d1",
+        "\u91d1\u878d\u79d1\u6280\uff1a\u667a\u80fd\u6295\u987e\u4e0e\u98ce\u9669\u7ba1\u7406",
+        "\u5236\u9020\u4e1a\uff1a\u667a\u80fd\u5de5\u5382\u4e0e\u9884\u6d4b\u6027\u7ef4\u62a4"
+      ]
+    },
+    {
+      "title": "3. \u4eba\u5de5\u667a\u80fd\u7684\u6311\u6218\u4e0e\u98ce\u9669",
+      "content": [
+        "**\u6280\u672f\u6311\u6218**",
+        "\u6570\u636e\u9690\u79c1\u4e0e\u5b89\u5168\u95ee\u9898",
+        "\u7b97\u6cd5\u504f\u89c1\u4e0e\u516c\u5e73\u6027",
+        "\u6a21\u578b\u7684\u53ef\u89e3\u91ca\u6027\u4e0e\u900f\u660e\u5ea6",
+        "**\u793e\u4f1a\u5f71\u54cd**",
+        "\u5c31\u4e1a\u5e02\u573a\u7684\u53d8\u5316\uff1a\u81ea\u52a8\u5316\u4e0e\u5c97\u4f4d\u66ff\u4ee3",
+        "\u4f26\u7406\u4e0e\u6cd5\u5f8b\u95ee\u9898\uff1aAI\u51b3\u7b56\u7684\u8d23\u4efb\u5f52\u5c5e"
+      ]
+    },
+    {
+      "title": "4. \u4eba\u5de5\u667a\u80fd\u7684\u672a\u6765\u8d8b\u52bf",
+      "content": [
+        "**\u6280\u672f\u53d1\u5c55\u65b9\u5411**",
+        "\u5f3a\u5316\u5b66\u4e60\u4e0e\u901a\u7528\u4eba\u5de5\u667a\u80fd\uff08AGI\uff09",
+        "\u8fb9\u7f18\u8ba1\u7b97\u4e0eAI\u7684\u5206\u5e03\u5f0f\u5e94\u7528",
+        "\u91cf\u5b50\u8ba1\u7b97\u5bf9AI\u7684\u6f5c\u5728\u5f71\u54cd",
+        "**\u884c\u4e1a\u524d\u666f**",
+        "\u9884\u8ba1\u5230{data:future_year}\uff0cAI\u5e02\u573a\u89c4\u6a21\u5c06\u8fbe\u5230{data:future_market_size}",
+        "\u65b0\u5174\u5e94\u7528\u9886\u57df\uff1a\u6559\u80b2\u3001\u519c\u4e1a\u3001\u80fd\u6e90\u7b49"
+      ]
+    },
+    {
+      "title": "5. \u603b\u7ed3\u4e0e\u5c55\u671b",
+      "content": [
+        "**\u4eba\u5de5\u667a\u80fd\u7684\u673a\u9047\u4e0e\u6311\u6218**",
+        "\u673a\u9047\uff1a\u63d0\u5347\u6548\u7387\u3001\u521b\u65b0\u5546\u4e1a\u6a21\u5f0f",
+        "\u6311\u6218\uff1a\u6280\u672f\u74f6\u9888\u3001\u4f26\u7406\u95ee\u9898",
+        "**\u672a\u6765\u5c55\u671b**",
+        "AI\u4e0e\u4eba\u7c7b\u534f\u4f5c\u7684\u672a\u6765",
+        "\u6301\u7eed\u7684\u6280\u672f\u521b\u65b0\u4e0e\u793e\u4f1a\u9002\u5e94",
+        "{data:market_size}\uff1a\u5f53\u524d\u5168\u7403\u4eba\u5de5\u667a\u80fd\u5e02\u573a\u89c4\u6a21",
+        "{data:future_year}\uff1a\u672a\u6765\u9884\u6d4b\u5e74\u4efd",
+        "{data:future_market_size}\uff1a\u672a\u6765\u4eba\u5de5\u667a\u80fd\u5e02\u573a\u89c4\u6a21\u9884\u6d4b"
+      ]
+    }
+  ]
+}
+2025-03-03 21:19:58,629 - INFO - 文件生成成功: W:\PY\ZNTppt\WPYZNTpptoutput.pptx
+2025-03-03 21:48:53,976 - INFO - 用户文本输入内容:
+请你生成一个关于游戏王者荣耀的PPT
+2025-03-03 21:48:53,981 - DEBUG - Starting new HTTPS connection (1): api.deepseek.com:443
+2025-03-03 21:48:54,493 - DEBUG - https://api.deepseek.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+2025-03-03 21:49:23,555 - DEBUG - API生成内容:
+```markdown
+# 王者荣耀：游戏市场与用户分析
+
+## 1. 游戏概述
+- **游戏简介**  
+  - 王者荣耀是一款由腾讯游戏开发的多人在线战术竞技游戏（MOBA）。
+  - 自2015年上线以来，已成为全球最受欢迎的手机游戏之一。
+  
+- **游戏特色**  
+  - 多样化的英雄角色和技能组合。
+  - 实时对战模式，强调团队合作与策略。
+
+## 2. 市场表现
+- **市场规模**  
+  - 2023年全球移动游戏市场规模达到{data:market_size}亿美元。
+  - 王者荣耀在中国市场的收入占比超过{data:china_market_share}%。
+
+- **用户增长**  
+  - 截至2023年，王者荣耀的月活跃用户数（MAU）达到{data:mau}亿。
+  - 海外市场用户增长率达到{data:overseas_growth}%。
+
+## 3. 用户画像
+- **年龄分布**  
+  - 主要用户群体为18-35岁，占比{data:age_distribution}%。
+  - 青少年用户（13-17岁）占比{data:teenage_share}%。
+
+- **性别比例**  
+  - 男性用户占比{data:male_ratio}%，女性用户占比{data:female_ratio}%。
+  - 女性用户比例逐年上升，显示出游戏的广泛吸引力。
+
+## 4. 游戏生态
+- **电竞赛事**  
+  - 王者荣耀职业联赛（KPL）已成为中国最具影响力的电竞赛事之一。
+  - 2023年KPL总决赛观看人数突破{data:kpl_viewers}亿。
+
+- **社区与内容创作**  
+  - 游戏内社区活跃，用户生成内容（UGC）丰富。
+  - 王者荣耀相关视频在各大平台的播放量达到{data:video_views}亿次。
+
+## 5. 未来展望
+- **技术创新**  
+  - 5G和云游戏技术的应用将进一步提升游戏体验。
+  - 预计2025年，云游戏市场规模将达到{data:cloud_gaming_market}亿美元。
+
+- **全球化扩展**  
+  - 王者荣耀将继续拓展海外市场，特别是在东南亚和欧美地区。
+  - 预计未来三年，海外市场收入将增长{data:overseas_revenue_growth}%。
+
+---
+
+**数据来源**：{data:source}
+```
+2025-03-03 21:49:23,555 - WARNING - 第1行: 忽略无法解析的内容 -> ```markdown
+2025-03-03 21:49:23,556 - WARNING - 第49行: 忽略无法解析的内容 -> ---
+2025-03-03 21:49:23,556 - WARNING - 第51行: 忽略无法解析的内容 -> **数据来源**：{data:source}
+2025-03-03 21:49:23,556 - WARNING - 第52行: 忽略无法解析的内容 -> ```
+2025-03-03 21:49:23,556 - DEBUG - 结构化数据: {
+  "title": "\u738b\u8005\u8363\u8000\uff1a\u6e38\u620f\u5e02\u573a\u4e0e\u7528\u6237\u5206\u6790",
+  "sections": [
+    {
+      "title": "1. \u6e38\u620f\u6982\u8ff0",
+      "content": [
+        "**\u6e38\u620f\u7b80\u4ecb**",
+        "\u738b\u8005\u8363\u8000\u662f\u4e00\u6b3e\u7531\u817e\u8baf\u6e38\u620f\u5f00\u53d1\u7684\u591a\u4eba\u5728\u7ebf\u6218\u672f\u7ade\u6280\u6e38\u620f\uff08MOBA\uff09\u3002",
+        "\u81ea2015\u5e74\u4e0a\u7ebf\u4ee5\u6765\uff0c\u5df2\u6210\u4e3a\u5168\u7403\u6700\u53d7\u6b22\u8fce\u7684\u624b\u673a\u6e38\u620f\u4e4b\u4e00\u3002",
+        "**\u6e38\u620f\u7279\u8272**",
+        "\u591a\u6837\u5316\u7684\u82f1\u96c4\u89d2\u8272\u548c\u6280\u80fd\u7ec4\u5408\u3002",
+        "\u5b9e\u65f6\u5bf9\u6218\u6a21\u5f0f\uff0c\u5f3a\u8c03\u56e2\u961f\u5408\u4f5c\u4e0e\u7b56\u7565\u3002"
+      ]
+    },
+    {
+      "title": "2. \u5e02\u573a\u8868\u73b0",
+      "content": [
+        "**\u5e02\u573a\u89c4\u6a21**",
+        "2023\u5e74\u5168\u7403\u79fb\u52a8\u6e38\u620f\u5e02\u573a\u89c4\u6a21\u8fbe\u5230{data:market_size}\u4ebf\u7f8e\u5143\u3002",
+        "\u738b\u8005\u8363\u8000\u5728\u4e2d\u56fd\u5e02\u573a\u7684\u6536\u5165\u5360\u6bd4\u8d85\u8fc7{data:china_market_share}%\u3002",
+        "**\u7528\u6237\u589e\u957f**",
+        "\u622a\u81f32023\u5e74\uff0c\u738b\u8005\u8363\u8000\u7684\u6708\u6d3b\u8dc3\u7528\u6237\u6570\uff08MAU\uff09\u8fbe\u5230{data:mau}\u4ebf\u3002",
+        "\u6d77\u5916\u5e02\u573a\u7528\u6237\u589e\u957f\u7387\u8fbe\u5230{data:overseas_growth}%\u3002"
+      ]
+    },
+    {
+      "title": "3. \u7528\u6237\u753b\u50cf",
+      "content": [
+        "**\u5e74\u9f84\u5206\u5e03**",
+        "\u4e3b\u8981\u7528\u6237\u7fa4\u4f53\u4e3a18-35\u5c81\uff0c\u5360\u6bd4{data:age_distribution}%\u3002",
+        "\u9752\u5c11\u5e74\u7528\u6237\uff0813-17\u5c81\uff09\u5360\u6bd4{data:teenage_share}%\u3002",
+        "**\u6027\u522b\u6bd4\u4f8b**",
+        "\u7537\u6027\u7528\u6237\u5360\u6bd4{data:male_ratio}%\uff0c\u5973\u6027\u7528\u6237\u5360\u6bd4{data:female_ratio}%\u3002",
+        "\u5973\u6027\u7528\u6237\u6bd4\u4f8b\u9010\u5e74\u4e0a\u5347\uff0c\u663e\u793a\u51fa\u6e38\u620f\u7684\u5e7f\u6cdb\u5438\u5f15\u529b\u3002"
+      ]
+    },
+    {
+      "title": "4. \u6e38\u620f\u751f\u6001",
+      "content": [
+        "**\u7535\u7ade\u8d5b\u4e8b**",
+        "\u738b\u8005\u8363\u8000\u804c\u4e1a\u8054\u8d5b\uff08KPL\uff09\u5df2\u6210\u4e3a\u4e2d\u56fd\u6700\u5177\u5f71\u54cd\u529b\u7684\u7535\u7ade\u8d5b\u4e8b\u4e4b\u4e00\u3002",
+        "2023\u5e74KPL\u603b\u51b3\u8d5b\u89c2\u770b\u4eba\u6570\u7a81\u7834{data:kpl_viewers}\u4ebf\u3002",
+        "**\u793e\u533a\u4e0e\u5185\u5bb9\u521b\u4f5c**",
+        "\u6e38\u620f\u5185\u793e\u533a\u6d3b\u8dc3\uff0c\u7528\u6237\u751f\u6210\u5185\u5bb9\uff08UGC\uff09\u4e30\u5bcc\u3002",
+        "\u738b\u8005\u8363\u8000\u76f8\u5173\u89c6\u9891\u5728\u5404\u5927\u5e73\u53f0\u7684\u64ad\u653e\u91cf\u8fbe\u5230{data:video_views}\u4ebf\u6b21\u3002"
+      ]
+    },
+    {
+      "title": "5. \u672a\u6765\u5c55\u671b",
+      "content": [
+        "**\u6280\u672f\u521b\u65b0**",
+        "5G\u548c\u4e91\u6e38\u620f\u6280\u672f\u7684\u5e94\u7528\u5c06\u8fdb\u4e00\u6b65\u63d0\u5347\u6e38\u620f\u4f53\u9a8c\u3002",
+        "\u9884\u8ba12025\u5e74\uff0c\u4e91\u6e38\u620f\u5e02\u573a\u89c4\u6a21\u5c06\u8fbe\u5230{data:cloud_gaming_market}\u4ebf\u7f8e\u5143\u3002",
+        "**\u5168\u7403\u5316\u6269\u5c55**",
+        "\u738b\u8005\u8363\u8000\u5c06\u7ee7\u7eed\u62d3\u5c55\u6d77\u5916\u5e02\u573a\uff0c\u7279\u522b\u662f\u5728\u4e1c\u5357\u4e9a\u548c\u6b27\u7f8e\u5730\u533a\u3002",
+        "\u9884\u8ba1\u672a\u6765\u4e09\u5e74\uff0c\u6d77\u5916\u5e02\u573a\u6536\u5165\u5c06\u589e\u957f{data:overseas_revenue_growth}%\u3002"
+      ]
+    }
+  ]
+}
+2025-03-03 21:49:23,571 - ERROR - 第1页创建失败: 'CT_TextParagraphProperties' object has no attribute 'get_or_add_bulet'
+2025-03-03 21:49:23,573 - ERROR - 第2页创建失败: 'CT_TextParagraphProperties' object has no attribute 'get_or_add_bulet'
+2025-03-03 21:49:23,575 - ERROR - 第3页创建失败: 'CT_TextParagraphProperties' object has no attribute 'get_or_add_bulet'
+2025-03-03 21:49:23,576 - ERROR - 第4页创建失败: 'CT_TextParagraphProperties' object has no attribute 'get_or_add_bulet'
+2025-03-03 21:49:23,578 - ERROR - 第5页创建失败: 'CT_TextParagraphProperties' object has no attribute 'get_or_add_bulet'
+2025-03-03 21:49:23,588 - INFO - 文件生成成功: W:\PY\ZNTppt\WPYZNTpptoutput.pptx
+2025-03-03 22:46:19,160 - INFO - 用户文本输入内容:
+
+2025-03-03 22:46:19,160 - ERROR - 生成失败: 输入内容不能为空
+Traceback (most recent call last):
+  File "W:\PY\ZNTppt\main.py", line 174, in run_generation
+    structured_data = self.generator.parse_input(content)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "W:\PY\ZNTppt\main.py", line 277, in parse_input
+    raise ValueError("输入内容不能为空")
+ValueError: 输入内容不能为空
+2025-03-03 22:46:36,390 - INFO - 用户文本输入内容:
+请你生成一份关于原神的PPT
+2025-03-03 22:46:36,395 - DEBUG - Starting new HTTPS connection (1): api.deepseek.com:443
+2025-03-03 22:46:36,997 - DEBUG - https://api.deepseek.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+2025-03-03 22:47:06,999 - ERROR - API请求失败: HTTPSConnectionPool(host='api.deepseek.com', port=443): Read timed out.
+2025-03-03 22:47:06,999 - ERROR - 生成失败: API请求失败: HTTPSConnectionPool(host='api.deepseek.com', port=443): Read timed out.
+Traceback (most recent call last):
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\response.py", line 737, in _error_catcher
+    yield
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\response.py", line 1184, in read_chunked
+    self._update_chunk_length()
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\response.py", line 1108, in _update_chunk_length
+    line = self._fp.fp.readline()  # type: ignore[union-attr]
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\socket.py", line 707, in readinto
+    return self._sock.recv_into(b)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\ssl.py", line 1252, in recv_into
+    return self.read(nbytes, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\ssl.py", line 1104, in read
+    return self._sslobj.read(len, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TimeoutError: The read operation timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\models.py", line 816, in generate
+    yield from self.raw.stream(chunk_size, decode_content=True)
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\response.py", line 1040, in stream
+    yield from self.read_chunked(amt, decode_content=decode_content)
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\response.py", line 1172, in read_chunked
+    with self._error_catcher():
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\response.py", line 742, in _error_catcher
+    raise ReadTimeoutError(self._pool, None, "Read timed out.") from e  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Read timed out.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "W:\PY\ZNTppt\main.py", line 245, in call_deepseek_api
+    response = requests.post(
+               ^^^^^^^^^^^^^^
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\sessions.py", line 747, in send
+    r.content
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\models.py", line 899, in content
+    self._content = b"".join(self.iter_content(CONTENT_CHUNK_SIZE)) or b""
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\models.py", line 822, in generate
+    raise ConnectionError(e)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Read timed out.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "W:\PY\ZNTppt\main.py", line 174, in run_generation
+    structured_data = self.generator.parse_input(content)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "W:\PY\ZNTppt\main.py", line 289, in parse_input
+    generated_md = self.generate_outline(input_text)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "W:\PY\ZNTppt\main.py", line 272, in generate_outline
+    return self.call_deepseek_api(prompt)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "W:\PY\ZNTppt\main.py", line 263, in call_deepseek_api
+    raise Exception(f"API请求失败: {str(e)}")
+Exception: API请求失败: HTTPSConnectionPool(host='api.deepseek.com', port=443): Read timed out.
+2025-03-03 22:48:03,562 - INFO - 用户文本输入内容:
+请你生成一份关于原神的PPT
+2025-03-03 22:48:03,567 - DEBUG - Starting new HTTPS connection (1): api.deepseek.com:443
+2025-03-03 22:48:04,123 - DEBUG - https://api.deepseek.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+2025-03-03 22:48:34,124 - ERROR - API请求失败: HTTPSConnectionPool(host='api.deepseek.com', port=443): Read timed out.
+2025-03-03 22:48:34,125 - ERROR - 生成失败: API请求失败: HTTPSConnectionPool(host='api.deepseek.com', port=443): Read timed out.
+Traceback (most recent call last):
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\response.py", line 737, in _error_catcher
+    yield
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\response.py", line 1184, in read_chunked
+    self._update_chunk_length()
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\response.py", line 1108, in _update_chunk_length
+    line = self._fp.fp.readline()  # type: ignore[union-attr]
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\socket.py", line 707, in readinto
+    return self._sock.recv_into(b)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\ssl.py", line 1252, in recv_into
+    return self.read(nbytes, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\ssl.py", line 1104, in read
+    return self._sslobj.read(len, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TimeoutError: The read operation timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\models.py", line 816, in generate
+    yield from self.raw.stream(chunk_size, decode_content=True)
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\response.py", line 1040, in stream
+    yield from self.read_chunked(amt, decode_content=decode_content)
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\response.py", line 1172, in read_chunked
+    with self._error_catcher():
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\response.py", line 742, in _error_catcher
+    raise ReadTimeoutError(self._pool, None, "Read timed out.") from e  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Read timed out.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "W:\PY\ZNTppt\main.py", line 245, in call_deepseek_api
+    response = requests.post(
+               ^^^^^^^^^^^^^^
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\sessions.py", line 747, in send
+    r.content
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\models.py", line 899, in content
+    self._content = b"".join(self.iter_content(CONTENT_CHUNK_SIZE)) or b""
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\models.py", line 822, in generate
+    raise ConnectionError(e)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Read timed out.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "W:\PY\ZNTppt\main.py", line 174, in run_generation
+    structured_data = self.generator.parse_input(content)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "W:\PY\ZNTppt\main.py", line 289, in parse_input
+    generated_md = self.generate_outline(input_text)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "W:\PY\ZNTppt\main.py", line 272, in generate_outline
+    return self.call_deepseek_api(prompt)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "W:\PY\ZNTppt\main.py", line 263, in call_deepseek_api
+    raise Exception(f"API请求失败: {str(e)}")
+Exception: API请求失败: HTTPSConnectionPool(host='api.deepseek.com', port=443): Read timed out.
+2025-03-03 22:54:37,535 - INFO - 用户文本输入内容:
+请生成一份关于人工智能的PPT
+2025-03-03 22:54:37,540 - DEBUG - Starting new HTTPS connection (1): api.deepseek.com:443
+2025-03-03 22:54:39,280 - DEBUG - https://api.deepseek.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+2025-03-03 22:55:02,234 - DEBUG - API生成内容:
+```markdown
+# 人工智能概述
+
+## 1. 人工智能简介
+- 定义与背景
+  - 人工智能的定义
+  - 发展历史与里程碑
+- 主要应用领域
+  - 医疗保健
+  - 金融服务
+  - 自动驾驶
+
+## 2. 人工智能技术
+- 机器学习
+  - 监督学习
+  - 无监督学习
+- 深度学习
+  - 神经网络
+  - 卷积神经网络（CNN）
+- 自然语言处理（NLP）
+  - 文本分析
+  - 语音识别
+
+## 3. 人工智能市场分析
+- 市场规模
+  - 全球市场规模：{data:market_size}
+  - 区域市场分布
+- 主要参与者
+  - 领先企业
+  - 初创公司
+
+## 4. 人工智能的挑战与机遇
+- 技术挑战
+  - 数据隐私与安全
+  - 算法偏见
+- 社会影响
+  - 就业市场变化
+  - 伦理与法律问题
+
+## 5. 未来趋势
+- 技术发展趋势
+  - 边缘计算与AI
+  - 量子计算与AI
+- 行业应用前景
+  - 智能制造
+  - 智慧城市
+
+# 数据插入标记
+- 全球市场规模：{data:market_size}
+- 区域市场分布：{data:regional_market_distribution}
+- 领先企业：{data:leading_companies}
+- 初创公司：{data:startups}
+```
+
+这个大纲提供了一个清晰的结构，涵盖了人工智能的主要方面，并标记了需要插入数据的位置。你可以根据具体需求进一步调整和扩展内容。
+2025-03-03 22:55:02,234 - WARNING - 第1行: 忽略无法解析的内容 -> ```markdown
+2025-03-03 22:55:02,234 - WARNING - 第53行: 忽略无法解析的内容 -> ```
+2025-03-03 22:55:02,234 - WARNING - 第55行: 忽略无法解析的内容 -> 这个大纲提供了一个清晰的结构，涵盖了人工智能的主要方面，并标记了需要插入数据的位置。你可以根据具体需求进一步调整和扩展内容。
+2025-03-03 22:55:02,234 - DEBUG - 结构化数据: {
+  "title": "\u6570\u636e\u63d2\u5165\u6807\u8bb0",
+  "sections": [
+    {
+      "title": "1. \u4eba\u5de5\u667a\u80fd\u7b80\u4ecb",
+      "content": [
+        "\u5b9a\u4e49\u4e0e\u80cc\u666f",
+        "\u4eba\u5de5\u667a\u80fd\u7684\u5b9a\u4e49",
+        "\u53d1\u5c55\u5386\u53f2\u4e0e\u91cc\u7a0b\u7891",
+        "\u4e3b\u8981\u5e94\u7528\u9886\u57df",
+        "\u533b\u7597\u4fdd\u5065",
+        "\u91d1\u878d\u670d\u52a1",
+        "\u81ea\u52a8\u9a7e\u9a76"
+      ]
+    },
+    {
+      "title": "2. \u4eba\u5de5\u667a\u80fd\u6280\u672f",
+      "content": [
+        "\u673a\u5668\u5b66\u4e60",
+        "\u76d1\u7763\u5b66\u4e60",
+        "\u65e0\u76d1\u7763\u5b66\u4e60",
+        "\u6df1\u5ea6\u5b66\u4e60",
+        "\u795e\u7ecf\u7f51\u7edc",
+        "\u5377\u79ef\u795e\u7ecf\u7f51\u7edc\uff08CNN\uff09",
+        "\u81ea\u7136\u8bed\u8a00\u5904\u7406\uff08NLP\uff09",
+        "\u6587\u672c\u5206\u6790",
+        "\u8bed\u97f3\u8bc6\u522b"
+      ]
+    },
+    {
+      "title": "3. \u4eba\u5de5\u667a\u80fd\u5e02\u573a\u5206\u6790",
+      "content": [
+        "\u5e02\u573a\u89c4\u6a21",
+        "\u5168\u7403\u5e02\u573a\u89c4\u6a21\uff1a{data:market_size}",
+        "\u533a\u57df\u5e02\u573a\u5206\u5e03",
+        "\u4e3b\u8981\u53c2\u4e0e\u8005",
+        "\u9886\u5148\u4f01\u4e1a",
+        "\u521d\u521b\u516c\u53f8"
+      ]
+    },
+    {
+      "title": "4. \u4eba\u5de5\u667a\u80fd\u7684\u6311\u6218\u4e0e\u673a\u9047",
+      "content": [
+        "\u6280\u672f\u6311\u6218",
+        "\u6570\u636e\u9690\u79c1\u4e0e\u5b89\u5168",
+        "\u7b97\u6cd5\u504f\u89c1",
+        "\u793e\u4f1a\u5f71\u54cd",
+        "\u5c31\u4e1a\u5e02\u573a\u53d8\u5316",
+        "\u4f26\u7406\u4e0e\u6cd5\u5f8b\u95ee\u9898"
+      ]
+    },
+    {
+      "title": "5. \u672a\u6765\u8d8b\u52bf",
+      "content": [
+        "\u6280\u672f\u53d1\u5c55\u8d8b\u52bf",
+        "\u8fb9\u7f18\u8ba1\u7b97\u4e0eAI",
+        "\u91cf\u5b50\u8ba1\u7b97\u4e0eAI",
+        "\u884c\u4e1a\u5e94\u7528\u524d\u666f",
+        "\u667a\u80fd\u5236\u9020",
+        "\u667a\u6167\u57ce\u5e02",
+        "\u5168\u7403\u5e02\u573a\u89c4\u6a21\uff1a{data:market_size}",
+        "\u533a\u57df\u5e02\u573a\u5206\u5e03\uff1a{data:regional_market_distribution}",
+        "\u9886\u5148\u4f01\u4e1a\uff1a{data:leading_companies}",
+        "\u521d\u521b\u516c\u53f8\uff1a{data:startups}"
+      ]
+    }
+  ]
+}
+2025-03-03 22:55:02,235 - INFO - 创建输出目录: W\PY\ZNTppt
+2025-03-03 22:55:02,249 - ERROR - 第1页创建失败: 'no placeholder on this slide with idx == 1'
+2025-03-03 22:55:02,251 - ERROR - 第2页创建失败: 'no placeholder on this slide with idx == 1'
+2025-03-03 22:55:02,252 - ERROR - 第3页创建失败: 'no placeholder on this slide with idx == 1'
+2025-03-03 22:55:02,253 - ERROR - 第4页创建失败: 'no placeholder on this slide with idx == 1'
+2025-03-03 22:55:02,254 - ERROR - 第5页创建失败: 'no placeholder on this slide with idx == 1'
+2025-03-03 22:55:02,256 - WARNING - 结束页创建失败: 'no placeholder on this slide with idx == 1'
+2025-03-03 22:55:02,267 - INFO - 文件成功保存至: W\PY\ZNTppt\AI.pptx
+2025-03-03 22:55:02,267 - INFO - 文件生成成功: W:\PY\ZNTppt\W\PY\ZNTppt\AI.pptx
+2025-03-03 23:03:14,129 - INFO - 用户文本输入内容:
+请你生成一份关于人工智能前进的PPT
+2025-03-03 23:03:14,137 - DEBUG - Starting new HTTPS connection (1): api.deepseek.com:443
+2025-03-03 23:03:14,762 - DEBUG - https://api.deepseek.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+2025-03-03 23:03:41,288 - DEBUG - API生成内容:
+```markdown
+# 人工智能前进的PPT大纲
+
+## 1. 人工智能的现状与趋势
+- **全球人工智能市场规模**  
+  - 2023年市场规模：{data:market_size}  
+  - 预计2025年增长率：{data:growth_rate}  
+- **主要应用领域**  
+  - 医疗、金融、自动驾驶等行业的应用案例  
+  - 各行业AI渗透率：{data:penetration_rate}  
+
+## 2. 人工智能的技术突破
+- **深度学习与神经网络**  
+  - 最新算法进展：{data:algorithm_advance}  
+  - 计算能力提升：{data:computing_power}  
+- **自然语言处理（NLP）**  
+  - GPT-4等模型的突破  
+  - 语言模型准确率：{data:accuracy_rate}  
+
+## 3. 人工智能的挑战与风险
+- **伦理与隐私问题**  
+  - 数据隐私泄露案例：{data:privacy_breach}  
+  - 伦理框架的建立与争议  
+- **技术局限性**  
+  - 当前AI的局限性：{data:limitations}  
+  - 对抗性攻击与安全性问题  
+
+## 4. 人工智能的未来展望
+- **AI与人类协作**  
+  - 人机协作的未来场景  
+  - 协作效率提升：{data:collaboration_efficiency}  
+- **AI驱动的创新**  
+  - 新兴行业与商业模式  
+  - 创新案例与市场潜力：{data:innovation_potential}  
+
+## 5. 总结与行动建议
+- **总结人工智能的进展与挑战**  
+  - 关键数据回顾：{data:key_metrics}  
+- **行动建议**  
+  - 企业如何布局AI  
+  - 政策与监管建议  
+```
+2025-03-03 23:03:41,288 - WARNING - 第1行: 忽略无法解析的内容 -> ```markdown
+2025-03-03 23:03:41,288 - WARNING - 第42行: 忽略无法解析的内容 -> ```
+2025-03-03 23:03:41,289 - DEBUG - 结构化数据: {
+  "title": "\u4eba\u5de5\u667a\u80fd\u524d\u8fdb\u7684PPT\u5927\u7eb2",
+  "sections": [
+    {
+      "title": "1. \u4eba\u5de5\u667a\u80fd\u7684\u73b0\u72b6\u4e0e\u8d8b\u52bf",
+      "content": [
+        "**\u5168\u7403\u4eba\u5de5\u667a\u80fd\u5e02\u573a\u89c4\u6a21**",
+        "2023\u5e74\u5e02\u573a\u89c4\u6a21\uff1a{data:market_size}",
+        "\u9884\u8ba12025\u5e74\u589e\u957f\u7387\uff1a{data:growth_rate}",
+        "**\u4e3b\u8981\u5e94\u7528\u9886\u57df**",
+        "\u533b\u7597\u3001\u91d1\u878d\u3001\u81ea\u52a8\u9a7e\u9a76\u7b49\u884c\u4e1a\u7684\u5e94\u7528\u6848\u4f8b",
+        "\u5404\u884c\u4e1aAI\u6e17\u900f\u7387\uff1a{data:penetration_rate}"
+      ]
+    },
+    {
+      "title": "2. \u4eba\u5de5\u667a\u80fd\u7684\u6280\u672f\u7a81\u7834",
+      "content": [
+        "**\u6df1\u5ea6\u5b66\u4e60\u4e0e\u795e\u7ecf\u7f51\u7edc**",
+        "\u6700\u65b0\u7b97\u6cd5\u8fdb\u5c55\uff1a{data:algorithm_advance}",
+        "\u8ba1\u7b97\u80fd\u529b\u63d0\u5347\uff1a{data:computing_power}",
+        "**\u81ea\u7136\u8bed\u8a00\u5904\u7406\uff08NLP\uff09**",
+        "GPT-4\u7b49\u6a21\u578b\u7684\u7a81\u7834",
+        "\u8bed\u8a00\u6a21\u578b\u51c6\u786e\u7387\uff1a{data:accuracy_rate}"
+      ]
+    },
+    {
+      "title": "3. \u4eba\u5de5\u667a\u80fd\u7684\u6311\u6218\u4e0e\u98ce\u9669",
+      "content": [
+        "**\u4f26\u7406\u4e0e\u9690\u79c1\u95ee\u9898**",
+        "\u6570\u636e\u9690\u79c1\u6cc4\u9732\u6848\u4f8b\uff1a{data:privacy_breach}",
+        "\u4f26\u7406\u6846\u67b6\u7684\u5efa\u7acb\u4e0e\u4e89\u8bae",
+        "**\u6280\u672f\u5c40\u9650\u6027**",
+        "\u5f53\u524dAI\u7684\u5c40\u9650\u6027\uff1a{data:limitations}",
+        "\u5bf9\u6297\u6027\u653b\u51fb\u4e0e\u5b89\u5168\u6027\u95ee\u9898"
+      ]
+    },
+    {
+      "title": "4. \u4eba\u5de5\u667a\u80fd\u7684\u672a\u6765\u5c55\u671b",
+      "content": [
+        "**AI\u4e0e\u4eba\u7c7b\u534f\u4f5c**",
+        "\u4eba\u673a\u534f\u4f5c\u7684\u672a\u6765\u573a\u666f",
+        "\u534f\u4f5c\u6548\u7387\u63d0\u5347\uff1a{data:collaboration_efficiency}",
+        "**AI\u9a71\u52a8\u7684\u521b\u65b0**",
+        "\u65b0\u5174\u884c\u4e1a\u4e0e\u5546\u4e1a\u6a21\u5f0f",
+        "\u521b\u65b0\u6848\u4f8b\u4e0e\u5e02\u573a\u6f5c\u529b\uff1a{data:innovation_potential}"
+      ]
+    },
+    {
+      "title": "5. \u603b\u7ed3\u4e0e\u884c\u52a8\u5efa\u8bae",
+      "content": [
+        "**\u603b\u7ed3\u4eba\u5de5\u667a\u80fd\u7684\u8fdb\u5c55\u4e0e\u6311\u6218**",
+        "\u5173\u952e\u6570\u636e\u56de\u987e\uff1a{data:key_metrics}",
+        "**\u884c\u52a8\u5efa\u8bae**",
+        "\u4f01\u4e1a\u5982\u4f55\u5e03\u5c40AI",
+        "\u653f\u7b56\u4e0e\u76d1\u7ba1\u5efa\u8bae"
+      ]
+    }
+  ]
+}
+2025-03-03 23:03:41,300 - INFO - 封面页标题设置为: 人工智能前进的PPT大纲
+2025-03-03 23:03:41,301 - ERROR - 格式化正文失败: 'no placeholder on this slide with idx == 1'
+2025-03-03 23:03:41,301 - ERROR - 处理第1页内容失败: 'no placeholder on this slide with idx == 1'
+2025-03-03 23:03:41,301 - ERROR - 第1页创建失败: 'no placeholder on this slide with idx == 1'
+2025-03-03 23:03:41,302 - ERROR - 格式化正文失败: 'no placeholder on this slide with idx == 1'
+2025-03-03 23:03:41,303 - ERROR - 处理第2页内容失败: 'no placeholder on this slide with idx == 1'
+2025-03-03 23:03:41,303 - ERROR - 第2页创建失败: 'no placeholder on this slide with idx == 1'
+2025-03-03 23:03:41,304 - ERROR - 格式化正文失败: 'no placeholder on this slide with idx == 1'
+2025-03-03 23:03:41,304 - ERROR - 处理第3页内容失败: 'no placeholder on this slide with idx == 1'
+2025-03-03 23:03:41,304 - ERROR - 第3页创建失败: 'no placeholder on this slide with idx == 1'
+2025-03-03 23:03:41,305 - ERROR - 格式化正文失败: 'no placeholder on this slide with idx == 1'
+2025-03-03 23:03:41,305 - ERROR - 处理第4页内容失败: 'no placeholder on this slide with idx == 1'
+2025-03-03 23:03:41,305 - ERROR - 第4页创建失败: 'no placeholder on this slide with idx == 1'
+2025-03-03 23:03:41,306 - ERROR - 格式化正文失败: 'no placeholder on this slide with idx == 1'
+2025-03-03 23:03:41,306 - ERROR - 处理第5页内容失败: 'no placeholder on this slide with idx == 1'
+2025-03-03 23:03:41,306 - ERROR - 第5页创建失败: 'no placeholder on this slide with idx == 1'
+2025-03-03 23:03:41,309 - WARNING - 结束页创建失败: 'no placeholder on this slide with idx == 1'
+2025-03-03 23:03:41,317 - INFO - 文件成功保存至: W\PY\ZNTppt\AI.pptx
+2025-03-03 23:03:41,317 - INFO - 文件生成成功: W:\PY\ZNTppt\W\PY\ZNTppt\AI.pptx
+2025-03-03 23:12:36,596 - INFO - 用户文本输入内容:
+请你生成一份关于大学生生涯规划的PPT
+2025-03-03 23:12:36,600 - DEBUG - Starting new HTTPS connection (1): api.deepseek.com:443
+2025-03-03 23:12:37,225 - DEBUG - https://api.deepseek.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+2025-03-03 23:13:07,226 - ERROR - API请求失败: HTTPSConnectionPool(host='api.deepseek.com', port=443): Read timed out.
+2025-03-03 23:13:07,228 - ERROR - 生成失败: API请求失败: HTTPSConnectionPool(host='api.deepseek.com', port=443): Read timed out.
+Traceback (most recent call last):
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\response.py", line 737, in _error_catcher
+    yield
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\response.py", line 1184, in read_chunked
+    self._update_chunk_length()
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\response.py", line 1108, in _update_chunk_length
+    line = self._fp.fp.readline()  # type: ignore[union-attr]
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\socket.py", line 707, in readinto
+    return self._sock.recv_into(b)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\ssl.py", line 1252, in recv_into
+    return self.read(nbytes, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\ssl.py", line 1104, in read
+    return self._sslobj.read(len, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TimeoutError: The read operation timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\models.py", line 816, in generate
+    yield from self.raw.stream(chunk_size, decode_content=True)
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\response.py", line 1040, in stream
+    yield from self.read_chunked(amt, decode_content=decode_content)
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\response.py", line 1172, in read_chunked
+    with self._error_catcher():
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\response.py", line 742, in _error_catcher
+    raise ReadTimeoutError(self._pool, None, "Read timed out.") from e  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Read timed out.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "W:\PY\ZNTppt\main.py", line 205, in call_deepseek_api
+    response = requests.post(
+               ^^^^^^^^^^^^^^
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\sessions.py", line 747, in send
+    r.content
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\models.py", line 899, in content
+    self._content = b"".join(self.iter_content(CONTENT_CHUNK_SIZE)) or b""
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\models.py", line 822, in generate
+    raise ConnectionError(e)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Read timed out.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "W:\PY\ZNTppt\main.py", line 140, in run_generation
+    structured_data = self.generator.parse_input(content)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "W:\PY\ZNTppt\main.py", line 241, in parse_input
+    generated_md = self.generate_outline(input_text)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "W:\PY\ZNTppt\main.py", line 228, in generate_outline
+    return self.call_deepseek_api(prompt)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "W:\PY\ZNTppt\main.py", line 220, in call_deepseek_api
+    raise Exception(f"API请求失败: {str(e)}")
+Exception: API请求失败: HTTPSConnectionPool(host='api.deepseek.com', port=443): Read timed out.
+2025-03-03 23:13:28,361 - INFO - 用户文本输入内容:
+请你生成一份关于人工智能的PPT
+2025-03-03 23:13:28,364 - DEBUG - Starting new HTTPS connection (1): api.deepseek.com:443
+2025-03-03 23:13:29,022 - DEBUG - https://api.deepseek.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+2025-03-03 23:13:59,022 - ERROR - API请求失败: HTTPSConnectionPool(host='api.deepseek.com', port=443): Read timed out.
+2025-03-03 23:13:59,023 - ERROR - 生成失败: API请求失败: HTTPSConnectionPool(host='api.deepseek.com', port=443): Read timed out.
+Traceback (most recent call last):
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\response.py", line 737, in _error_catcher
+    yield
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\response.py", line 1184, in read_chunked
+    self._update_chunk_length()
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\response.py", line 1108, in _update_chunk_length
+    line = self._fp.fp.readline()  # type: ignore[union-attr]
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\socket.py", line 707, in readinto
+    return self._sock.recv_into(b)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\ssl.py", line 1252, in recv_into
+    return self.read(nbytes, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\ssl.py", line 1104, in read
+    return self._sslobj.read(len, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TimeoutError: The read operation timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\models.py", line 816, in generate
+    yield from self.raw.stream(chunk_size, decode_content=True)
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\response.py", line 1040, in stream
+    yield from self.read_chunked(amt, decode_content=decode_content)
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\response.py", line 1172, in read_chunked
+    with self._error_catcher():
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\response.py", line 742, in _error_catcher
+    raise ReadTimeoutError(self._pool, None, "Read timed out.") from e  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Read timed out.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "W:\PY\ZNTppt\main.py", line 205, in call_deepseek_api
+    response = requests.post(
+               ^^^^^^^^^^^^^^
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\sessions.py", line 747, in send
+    r.content
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\models.py", line 899, in content
+    self._content = b"".join(self.iter_content(CONTENT_CHUNK_SIZE)) or b""
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\models.py", line 822, in generate
+    raise ConnectionError(e)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Read timed out.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "W:\PY\ZNTppt\main.py", line 140, in run_generation
+    structured_data = self.generator.parse_input(content)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "W:\PY\ZNTppt\main.py", line 241, in parse_input
+    generated_md = self.generate_outline(input_text)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "W:\PY\ZNTppt\main.py", line 228, in generate_outline
+    return self.call_deepseek_api(prompt)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "W:\PY\ZNTppt\main.py", line 220, in call_deepseek_api
+    raise Exception(f"API请求失败: {str(e)}")
+Exception: API请求失败: HTTPSConnectionPool(host='api.deepseek.com', port=443): Read timed out.
+2025-03-03 23:14:15,003 - INFO - 用户文本输入内容:
+请你生成一份关于人工智能的PPT
+2025-03-03 23:14:15,005 - DEBUG - Starting new HTTPS connection (1): api.deepseek.com:443
+2025-03-03 23:14:15,605 - DEBUG - https://api.deepseek.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+2025-03-03 23:14:45,607 - ERROR - API请求失败: HTTPSConnectionPool(host='api.deepseek.com', port=443): Read timed out.
+2025-03-03 23:14:45,607 - ERROR - 生成失败: API请求失败: HTTPSConnectionPool(host='api.deepseek.com', port=443): Read timed out.
+Traceback (most recent call last):
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\response.py", line 737, in _error_catcher
+    yield
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\response.py", line 1184, in read_chunked
+    self._update_chunk_length()
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\response.py", line 1108, in _update_chunk_length
+    line = self._fp.fp.readline()  # type: ignore[union-attr]
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\socket.py", line 707, in readinto
+    return self._sock.recv_into(b)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\ssl.py", line 1252, in recv_into
+    return self.read(nbytes, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\ssl.py", line 1104, in read
+    return self._sslobj.read(len, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TimeoutError: The read operation timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\models.py", line 816, in generate
+    yield from self.raw.stream(chunk_size, decode_content=True)
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\response.py", line 1040, in stream
+    yield from self.read_chunked(amt, decode_content=decode_content)
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\response.py", line 1172, in read_chunked
+    with self._error_catcher():
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\response.py", line 742, in _error_catcher
+    raise ReadTimeoutError(self._pool, None, "Read timed out.") from e  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Read timed out.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "W:\PY\ZNTppt\main.py", line 205, in call_deepseek_api
+    response = requests.post(
+               ^^^^^^^^^^^^^^
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\sessions.py", line 747, in send
+    r.content
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\models.py", line 899, in content
+    self._content = b"".join(self.iter_content(CONTENT_CHUNK_SIZE)) or b""
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\models.py", line 822, in generate
+    raise ConnectionError(e)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Read timed out.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "W:\PY\ZNTppt\main.py", line 140, in run_generation
+    structured_data = self.generator.parse_input(content)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "W:\PY\ZNTppt\main.py", line 241, in parse_input
+    generated_md = self.generate_outline(input_text)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "W:\PY\ZNTppt\main.py", line 228, in generate_outline
+    return self.call_deepseek_api(prompt)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "W:\PY\ZNTppt\main.py", line 220, in call_deepseek_api
+    raise Exception(f"API请求失败: {str(e)}")
+Exception: API请求失败: HTTPSConnectionPool(host='api.deepseek.com', port=443): Read timed out.
+2025-03-03 23:17:33,712 - INFO - 用户文本输入内容:
+请你生成一份关于人工智能的PPT
+2025-03-03 23:17:33,714 - DEBUG - Starting new HTTPS connection (1): api.deepseek.com:443
+2025-03-03 23:17:34,284 - DEBUG - https://api.deepseek.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+2025-03-03 23:17:59,986 - DEBUG - API生成内容:
+```markdown
+# 人工智能：现状与未来
+
+---
+
+## 1. 人工智能概述
+- **定义与背景**  
+  - 人工智能（AI）的定义  
+  - 发展历程：从图灵测试到深度学习  
+- **核心技术**  
+  - 机器学习与深度学习  
+  - 自然语言处理与计算机视觉  
+
+---
+
+## 2. 人工智能的应用领域
+- **行业应用**  
+  - 医疗健康：AI辅助诊断与药物研发  
+  - 金融科技：智能投顾与风险管理  
+- **日常生活**  
+  - 智能家居与语音助手  
+  - 自动驾驶与交通优化  
+
+---
+
+## 3. 人工智能的市场与趋势
+- **市场规模**  
+  - 全球AI市场规模：{data:market_size}  
+  - 主要增长驱动因素  
+- **未来趋势**  
+  - 边缘计算与AI的结合  
+  - 伦理与隐私问题的挑战  
+
+---
+
+## 4. 人工智能的挑战与风险
+- **技术挑战**  
+  - 数据质量与算法偏见  
+  - 模型的可解释性与透明度  
+- **社会影响**  
+  - 就业市场的变革  
+  - 伦理与法律框架的完善  
+
+---
+
+## 5. 人工智能的未来展望
+- **创新方向**  
+  - 通用人工智能（AGI）的研究进展  
+  - 量子计算与AI的结合  
+- **全球合作**  
+  - 国际AI政策与标准制定  
+  - 跨学科合作推动AI发展  
+
+---
+
+## 数据插入标记
+- 全球AI市场规模：{data:market_size}  
+- AI在医疗领域的投资增长率：{data:healthcare_investment_growth}  
+- 自动驾驶技术渗透率：{data:autonomous_driving_penetration}  
+```
+2025-03-03 23:17:59,986 - WARNING - 第1行: 忽略无法解析的内容 -> ```markdown
+2025-03-03 23:17:59,986 - WARNING - 第4行: 忽略无法解析的内容 -> ---
+2025-03-03 23:17:59,986 - WARNING - 第14行: 忽略无法解析的内容 -> ---
+2025-03-03 23:17:59,986 - WARNING - 第24行: 忽略无法解析的内容 -> ---
+2025-03-03 23:17:59,986 - WARNING - 第34行: 忽略无法解析的内容 -> ---
+2025-03-03 23:17:59,986 - WARNING - 第44行: 忽略无法解析的内容 -> ---
+2025-03-03 23:17:59,987 - WARNING - 第54行: 忽略无法解析的内容 -> ---
+2025-03-03 23:17:59,987 - WARNING - 第60行: 忽略无法解析的内容 -> ```
+2025-03-03 23:17:59,987 - DEBUG - 结构化数据: {
+  "title": "\u4eba\u5de5\u667a\u80fd\uff1a\u73b0\u72b6\u4e0e\u672a\u6765",
+  "sections": [
+    {
+      "title": "1. \u4eba\u5de5\u667a\u80fd\u6982\u8ff0",
+      "content": [
+        "**\u5b9a\u4e49\u4e0e\u80cc\u666f**",
+        "\u4eba\u5de5\u667a\u80fd\uff08AI\uff09\u7684\u5b9a\u4e49",
+        "\u53d1\u5c55\u5386\u7a0b\uff1a\u4ece\u56fe\u7075\u6d4b\u8bd5\u5230\u6df1\u5ea6\u5b66\u4e60",
+        "**\u6838\u5fc3\u6280\u672f**",
+        "\u673a\u5668\u5b66\u4e60\u4e0e\u6df1\u5ea6\u5b66\u4e60",
+        "\u81ea\u7136\u8bed\u8a00\u5904\u7406\u4e0e\u8ba1\u7b97\u673a\u89c6\u89c9"
+      ]
+    },
+    {
+      "title": "2. \u4eba\u5de5\u667a\u80fd\u7684\u5e94\u7528\u9886\u57df",
+      "content": [
+        "**\u884c\u4e1a\u5e94\u7528**",
+        "\u533b\u7597\u5065\u5eb7\uff1aAI\u8f85\u52a9\u8bca\u65ad\u4e0e\u836f\u7269\u7814\u53d1",
+        "\u91d1\u878d\u79d1\u6280\uff1a\u667a\u80fd\u6295\u987e\u4e0e\u98ce\u9669\u7ba1\u7406",
+        "**\u65e5\u5e38\u751f\u6d3b**",
+        "\u667a\u80fd\u5bb6\u5c45\u4e0e\u8bed\u97f3\u52a9\u624b",
+        "\u81ea\u52a8\u9a7e\u9a76\u4e0e\u4ea4\u901a\u4f18\u5316"
+      ]
+    },
+    {
+      "title": "3. \u4eba\u5de5\u667a\u80fd\u7684\u5e02\u573a\u4e0e\u8d8b\u52bf",
+      "content": [
+        "**\u5e02\u573a\u89c4\u6a21**",
+        "\u5168\u7403AI\u5e02\u573a\u89c4\u6a21\uff1a{data:market_size}",
+        "\u4e3b\u8981\u589e\u957f\u9a71\u52a8\u56e0\u7d20",
+        "**\u672a\u6765\u8d8b\u52bf**",
+        "\u8fb9\u7f18\u8ba1\u7b97\u4e0eAI\u7684\u7ed3\u5408",
+        "\u4f26\u7406\u4e0e\u9690\u79c1\u95ee\u9898\u7684\u6311\u6218"
+      ]
+    },
+    {
+      "title": "4. \u4eba\u5de5\u667a\u80fd\u7684\u6311\u6218\u4e0e\u98ce\u9669",
+      "content": [
+        "**\u6280\u672f\u6311\u6218**",
+        "\u6570\u636e\u8d28\u91cf\u4e0e\u7b97\u6cd5\u504f\u89c1",
+        "\u6a21\u578b\u7684\u53ef\u89e3\u91ca\u6027\u4e0e\u900f\u660e\u5ea6",
+        "**\u793e\u4f1a\u5f71\u54cd**",
+        "\u5c31\u4e1a\u5e02\u573a\u7684\u53d8\u9769",
+        "\u4f26\u7406\u4e0e\u6cd5\u5f8b\u6846\u67b6\u7684\u5b8c\u5584"
+      ]
+    },
+    {
+      "title": "5. \u4eba\u5de5\u667a\u80fd\u7684\u672a\u6765\u5c55\u671b",
+      "content": [
+        "**\u521b\u65b0\u65b9\u5411**",
+        "\u901a\u7528\u4eba\u5de5\u667a\u80fd\uff08AGI\uff09\u7684\u7814\u7a76\u8fdb\u5c55",
+        "\u91cf\u5b50\u8ba1\u7b97\u4e0eAI\u7684\u7ed3\u5408",
+        "**\u5168\u7403\u5408\u4f5c**",
+        "\u56fd\u9645AI\u653f\u7b56\u4e0e\u6807\u51c6\u5236\u5b9a",
+        "\u8de8\u5b66\u79d1\u5408\u4f5c\u63a8\u52a8AI\u53d1\u5c55"
+      ]
+    },
+    {
+      "title": "\u6570\u636e\u63d2\u5165\u6807\u8bb0",
+      "content": [
+        "\u5168\u7403AI\u5e02\u573a\u89c4\u6a21\uff1a{data:market_size}",
+        "AI\u5728\u533b\u7597\u9886\u57df\u7684\u6295\u8d44\u589e\u957f\u7387\uff1a{data:healthcare_investment_growth}",
+        "\u81ea\u52a8\u9a7e\u9a76\u6280\u672f\u6e17\u900f\u7387\uff1a{data:autonomous_driving_penetration}"
+      ]
+    }
+  ]
+}
+2025-03-03 23:18:00,004 - INFO - 封面页标题设置为: 人工智能：现状与未来
+2025-03-03 23:18:00,005 - WARNING - 内容页缺少正文占位符，添加默认文本框
+2025-03-03 23:18:00,006 - ERROR - 格式化正文失败: 'CT_TextParagraphProperties' object has no attribute 'get_or_add_buChar'
+2025-03-03 23:18:00,006 - ERROR - 处理第1页内容失败: 'CT_TextParagraphProperties' object has no attribute 'get_or_add_buChar'
+2025-03-03 23:18:00,006 - ERROR - 第1页创建失败: 'CT_TextParagraphProperties' object has no attribute 'get_or_add_buChar'
+2025-03-03 23:18:00,007 - WARNING - 内容页缺少正文占位符，添加默认文本框
+2025-03-03 23:18:00,008 - ERROR - 格式化正文失败: 'CT_TextParagraphProperties' object has no attribute 'get_or_add_buChar'
+2025-03-03 23:18:00,008 - ERROR - 处理第2页内容失败: 'CT_TextParagraphProperties' object has no attribute 'get_or_add_buChar'
+2025-03-03 23:18:00,008 - ERROR - 第2页创建失败: 'CT_TextParagraphProperties' object has no attribute 'get_or_add_buChar'
+2025-03-03 23:18:00,009 - WARNING - 内容页缺少正文占位符，添加默认文本框
+2025-03-03 23:18:00,009 - ERROR - 格式化正文失败: 'CT_TextParagraphProperties' object has no attribute 'get_or_add_buChar'
+2025-03-03 23:18:00,010 - ERROR - 处理第3页内容失败: 'CT_TextParagraphProperties' object has no attribute 'get_or_add_buChar'
+2025-03-03 23:18:00,010 - ERROR - 第3页创建失败: 'CT_TextParagraphProperties' object has no attribute 'get_or_add_buChar'
+2025-03-03 23:18:00,011 - WARNING - 内容页缺少正文占位符，添加默认文本框
+2025-03-03 23:18:00,011 - ERROR - 格式化正文失败: 'CT_TextParagraphProperties' object has no attribute 'get_or_add_buChar'
+2025-03-03 23:18:00,011 - ERROR - 处理第4页内容失败: 'CT_TextParagraphProperties' object has no attribute 'get_or_add_buChar'
+2025-03-03 23:18:00,011 - ERROR - 第4页创建失败: 'CT_TextParagraphProperties' object has no attribute 'get_or_add_buChar'
+2025-03-03 23:18:00,013 - WARNING - 内容页缺少正文占位符，添加默认文本框
+2025-03-03 23:18:00,013 - ERROR - 格式化正文失败: 'CT_TextParagraphProperties' object has no attribute 'get_or_add_buChar'
+2025-03-03 23:18:00,013 - ERROR - 处理第5页内容失败: 'CT_TextParagraphProperties' object has no attribute 'get_or_add_buChar'
+2025-03-03 23:18:00,013 - ERROR - 第5页创建失败: 'CT_TextParagraphProperties' object has no attribute 'get_or_add_buChar'
+2025-03-03 23:18:00,016 - WARNING - 内容页缺少正文占位符，添加默认文本框
+2025-03-03 23:18:00,016 - ERROR - 格式化正文失败: 'CT_TextParagraphProperties' object has no attribute 'get_or_add_buChar'
+2025-03-03 23:18:00,016 - ERROR - 处理第6页内容失败: 'CT_TextParagraphProperties' object has no attribute 'get_or_add_buChar'
+2025-03-03 23:18:00,016 - ERROR - 第6页创建失败: 'CT_TextParagraphProperties' object has no attribute 'get_or_add_buChar'
+2025-03-03 23:18:00,018 - WARNING - 结束页创建失败: 'no placeholder on this slide with idx == 1'
+2025-03-03 23:18:00,028 - INFO - 文件成功保存至: W\PY\ZNTppt\output.pptx
+2025-03-03 23:18:00,028 - INFO - 文件生成成功: W:\PY\ZNTppt\W\PY\ZNTppt\output.pptx
+2025-03-03 23:25:42,490 - INFO - 用户文本输入内容:
+请生成一份关于未来生活各方面的PPT
+2025-03-03 23:25:42,494 - DEBUG - Starting new HTTPS connection (1): api.deepseek.com:443
+2025-03-03 23:25:43,130 - DEBUG - https://api.deepseek.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+2025-03-03 23:26:13,131 - ERROR - API请求失败: HTTPSConnectionPool(host='api.deepseek.com', port=443): Read timed out.
+2025-03-03 23:26:13,131 - ERROR - 生成失败: API请求失败: HTTPSConnectionPool(host='api.deepseek.com', port=443): Read timed out.
+Traceback (most recent call last):
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\response.py", line 737, in _error_catcher
+    yield
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\response.py", line 1184, in read_chunked
+    self._update_chunk_length()
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\response.py", line 1108, in _update_chunk_length
+    line = self._fp.fp.readline()  # type: ignore[union-attr]
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\socket.py", line 707, in readinto
+    return self._sock.recv_into(b)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\ssl.py", line 1252, in recv_into
+    return self.read(nbytes, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\ssl.py", line 1104, in read
+    return self._sslobj.read(len, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TimeoutError: The read operation timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\models.py", line 816, in generate
+    yield from self.raw.stream(chunk_size, decode_content=True)
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\response.py", line 1040, in stream
+    yield from self.read_chunked(amt, decode_content=decode_content)
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\response.py", line 1172, in read_chunked
+    with self._error_catcher():
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\response.py", line 742, in _error_catcher
+    raise ReadTimeoutError(self._pool, None, "Read timed out.") from e  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Read timed out.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "W:\PY\ZNTppt\main.py", line 205, in call_deepseek_api
+    response = requests.post(
+               ^^^^^^^^^^^^^^
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\sessions.py", line 747, in send
+    r.content
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\models.py", line 899, in content
+    self._content = b"".join(self.iter_content(CONTENT_CHUNK_SIZE)) or b""
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\models.py", line 822, in generate
+    raise ConnectionError(e)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Read timed out.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "W:\PY\ZNTppt\main.py", line 140, in run_generation
+    structured_data = self.generator.parse_input(content)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "W:\PY\ZNTppt\main.py", line 241, in parse_input
+    generated_md = self.generate_outline(input_text)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "W:\PY\ZNTppt\main.py", line 228, in generate_outline
+    return self.call_deepseek_api(prompt)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "W:\PY\ZNTppt\main.py", line 220, in call_deepseek_api
+    raise Exception(f"API请求失败: {str(e)}")
+Exception: API请求失败: HTTPSConnectionPool(host='api.deepseek.com', port=443): Read timed out.
+2025-03-03 23:26:21,022 - INFO - 用户文本输入内容:
+请生成一份关于未来生活各方面的PPT
+2025-03-03 23:26:21,024 - DEBUG - Starting new HTTPS connection (1): api.deepseek.com:443
+2025-03-03 23:26:21,726 - DEBUG - https://api.deepseek.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+2025-03-03 23:26:48,395 - DEBUG - API生成内容:
+```markdown
+# 未来生活展望
+
+## 1. 智能家居与自动化
+- **智能家居设备的普及**  
+  - 预计到2030年，全球智能家居市场规模将达到{data:market_size}亿美元。  
+  - 主要设备包括智能音箱、智能照明和智能安防系统。  
+- **家庭自动化的未来趋势**  
+  - AI驱动的个性化家居体验。  
+  - 能源管理与可持续发展的结合。
+
+## 2. 交通与出行方式
+- **自动驾驶技术的成熟**  
+  - 预计到2035年，自动驾驶汽车将占全球汽车销量的{data:autonomous_car_percentage}%。  
+  - 主要挑战包括法规制定和公众接受度。  
+- **共享出行与绿色交通**  
+  - 共享单车、电动滑板车等微出行方式的普及。  
+  - 城市空中交通（UAM）的初步试点。
+
+## 3. 健康与医疗科技
+- **远程医疗与健康监测**  
+  - 预计到2025年，远程医疗市场规模将达到{data:telemedicine_market_size}亿美元。  
+  - 可穿戴设备与AI健康助手的结合。  
+- **基因编辑与个性化医疗**  
+  - CRISPR技术的应用前景。  
+  - 基于基因数据的个性化治疗方案。
+
+## 4. 工作与教育模式
+- **远程办公与灵活工作制**  
+  - 预计到2030年，全球远程办公人数将占总劳动力的{data:remote_work_percentage}%。  
+  - 虚拟办公室与协作工具的发展。  
+- **在线教育与终身学习**  
+  - 在线教育平台的多样化与普及。  
+  - AI驱动的个性化学习路径。
+
+## 5. 环境与可持续发展
+- **可再生能源的应用**  
+  - 预计到2040年，可再生能源将占全球能源消费的{data:renewable_energy_percentage}%。  
+  - 太阳能、风能与储能技术的突破。  
+- **循环经济与零废弃生活**  
+  - 循环经济模式的推广。  
+  - 零废弃生活方式的普及与挑战。
+```
+2025-03-03 23:26:48,396 - DEBUG - 结构化数据: {
+  "title": "\u672a\u6765\u751f\u6d3b\u5c55\u671b",
+  "sections": [
+    {
+      "title": "1. \u667a\u80fd\u5bb6\u5c45\u4e0e\u81ea\u52a8\u5316",
+      "content": [
+        "**\u667a\u80fd\u5bb6\u5c45\u8bbe\u5907\u7684\u666e\u53ca**\n\u9884\u8ba1\u52302030\u5e74\uff0c\u5168\u7403\u667a\u80fd\u5bb6\u5c45\u5e02\u573a\u89c4\u6a21\u5c06\u8fbe\u5230{data:market_size}\u4ebf\u7f8e\u5143\u3002\n\u4e3b\u8981\u8bbe\u5907\u5305\u62ec\u667a\u80fd\u97f3\u7bb1\u3001\u667a\u80fd\u7167\u660e\u548c\u667a\u80fd\u5b89\u9632\u7cfb\u7edf\u3002\n**\u5bb6\u5ead\u81ea\u52a8\u5316\u7684\u672a\u6765\u8d8b\u52bf**\nAI\u9a71\u52a8\u7684\u4e2a\u6027\u5316\u5bb6\u5c45\u4f53\u9a8c\u3002\n\u80fd\u6e90\u7ba1\u7406\u4e0e\u53ef\u6301\u7eed\u53d1\u5c55\u7684\u7ed3\u5408\u3002"
+      ]
+    },
+    {
+      "title": "2. \u4ea4\u901a\u4e0e\u51fa\u884c\u65b9\u5f0f",
+      "content": [
+        "**\u81ea\u52a8\u9a7e\u9a76\u6280\u672f\u7684\u6210\u719f**\n\u9884\u8ba1\u52302035\u5e74\uff0c\u81ea\u52a8\u9a7e\u9a76\u6c7d\u8f66\u5c06\u5360\u5168\u7403\u6c7d\u8f66\u9500\u91cf\u7684{data:autonomous_car_percentage}%\u3002\n\u4e3b\u8981\u6311\u6218\u5305\u62ec\u6cd5\u89c4\u5236\u5b9a\u548c\u516c\u4f17\u63a5\u53d7\u5ea6\u3002\n**\u5171\u4eab\u51fa\u884c\u4e0e\u7eff\u8272\u4ea4\u901a**\n\u5171\u4eab\u5355\u8f66\u3001\u7535\u52a8\u6ed1\u677f\u8f66\u7b49\u5fae\u51fa\u884c\u65b9\u5f0f\u7684\u666e\u53ca\u3002\n\u57ce\u5e02\u7a7a\u4e2d\u4ea4\u901a\uff08UAM\uff09\u7684\u521d\u6b65\u8bd5\u70b9\u3002"
+      ]
+    },
+    {
+      "title": "3. \u5065\u5eb7\u4e0e\u533b\u7597\u79d1\u6280",
+      "content": [
+        "**\u8fdc\u7a0b\u533b\u7597\u4e0e\u5065\u5eb7\u76d1\u6d4b**\n\u9884\u8ba1\u52302025\u5e74\uff0c\u8fdc\u7a0b\u533b\u7597\u5e02\u573a\u89c4\u6a21\u5c06\u8fbe\u5230{data:telemedicine_market_size}\u4ebf\u7f8e\u5143\u3002\n\u53ef\u7a7f\u6234\u8bbe\u5907\u4e0eAI\u5065\u5eb7\u52a9\u624b\u7684\u7ed3\u5408\u3002\n**\u57fa\u56e0\u7f16\u8f91\u4e0e\u4e2a\u6027\u5316\u533b\u7597**\nCRISPR\u6280\u672f\u7684\u5e94\u7528\u524d\u666f\u3002\n\u57fa\u4e8e\u57fa\u56e0\u6570\u636e\u7684\u4e2a\u6027\u5316\u6cbb\u7597\u65b9\u6848\u3002"
+      ]
+    },
+    {
+      "title": "4. \u5de5\u4f5c\u4e0e\u6559\u80b2\u6a21\u5f0f",
+      "content": [
+        "**\u8fdc\u7a0b\u529e\u516c\u4e0e\u7075\u6d3b\u5de5\u4f5c\u5236**\n\u9884\u8ba1\u52302030\u5e74\uff0c\u5168\u7403\u8fdc\u7a0b\u529e\u516c\u4eba\u6570\u5c06\u5360\u603b\u52b3\u52a8\u529b\u7684{data:remote_work_percentage}%\u3002\n\u865a\u62df\u529e\u516c\u5ba4\u4e0e\u534f\u4f5c\u5de5\u5177\u7684\u53d1\u5c55\u3002\n**\u5728\u7ebf\u6559\u80b2\u4e0e\u7ec8\u8eab\u5b66\u4e60**\n\u5728\u7ebf\u6559\u80b2\u5e73\u53f0\u7684\u591a\u6837\u5316\u4e0e\u666e\u53ca\u3002\nAI\u9a71\u52a8\u7684\u4e2a\u6027\u5316\u5b66\u4e60\u8def\u5f84\u3002"
+      ]
+    }
+  ]
+}
+2025-03-03 23:26:48,409 - INFO - 封面页标题设置为: 未来生活展望
+2025-03-03 23:26:48,411 - ERROR - 处理第1页内容失败: 'PPTGenerator' object has no attribute '_format_title'
+2025-03-03 23:26:48,411 - ERROR - 第1页创建失败: 'PPTGenerator' object has no attribute '_format_title'
+2025-03-03 23:26:48,413 - ERROR - 处理第2页内容失败: 'PPTGenerator' object has no attribute '_format_title'
+2025-03-03 23:26:48,413 - ERROR - 第2页创建失败: 'PPTGenerator' object has no attribute '_format_title'
+2025-03-03 23:26:48,415 - ERROR - 处理第3页内容失败: 'PPTGenerator' object has no attribute '_format_title'
+2025-03-03 23:26:48,415 - ERROR - 第3页创建失败: 'PPTGenerator' object has no attribute '_format_title'
+2025-03-03 23:26:48,418 - ERROR - 处理第4页内容失败: 'PPTGenerator' object has no attribute '_format_title'
+2025-03-03 23:26:48,418 - ERROR - 第4页创建失败: 'PPTGenerator' object has no attribute '_format_title'
+2025-03-03 23:26:48,421 - WARNING - 结束页创建失败: 'no placeholder on this slide with idx == 1'
+2025-03-03 23:26:48,437 - INFO - 文件成功保存至: W\PY\ZNTppt\output.pptx
+2025-03-03 23:26:48,437 - INFO - 文件生成成功: W:\PY\ZNTppt\W\PY\ZNTppt\output.pptx
+2025-03-03 23:41:39,741 - INFO - 用户文本输入内容:
+请帮我生成一份关于人工智能的未来的PPT
+2025-03-03 23:41:39,745 - DEBUG - Starting new HTTPS connection (1): api.deepseek.com:443
+2025-03-03 23:41:40,348 - DEBUG - https://api.deepseek.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+2025-03-03 23:42:10,349 - ERROR - API请求失败: HTTPSConnectionPool(host='api.deepseek.com', port=443): Read timed out.
+2025-03-03 23:42:10,349 - ERROR - 生成失败: API请求失败: HTTPSConnectionPool(host='api.deepseek.com', port=443): Read timed out.
+Traceback (most recent call last):
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\response.py", line 737, in _error_catcher
+    yield
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\response.py", line 1184, in read_chunked
+    self._update_chunk_length()
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\response.py", line 1108, in _update_chunk_length
+    line = self._fp.fp.readline()  # type: ignore[union-attr]
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\socket.py", line 707, in readinto
+    return self._sock.recv_into(b)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\ssl.py", line 1252, in recv_into
+    return self.read(nbytes, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\ssl.py", line 1104, in read
+    return self._sslobj.read(len, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TimeoutError: The read operation timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\models.py", line 816, in generate
+    yield from self.raw.stream(chunk_size, decode_content=True)
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\response.py", line 1040, in stream
+    yield from self.read_chunked(amt, decode_content=decode_content)
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\response.py", line 1172, in read_chunked
+    with self._error_catcher():
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\response.py", line 742, in _error_catcher
+    raise ReadTimeoutError(self._pool, None, "Read timed out.") from e  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Read timed out.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "W:\PY\ZNTppt\main.py", line 205, in call_deepseek_api
+    response = requests.post(
+               ^^^^^^^^^^^^^^
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\sessions.py", line 747, in send
+    r.content
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\models.py", line 899, in content
+    self._content = b"".join(self.iter_content(CONTENT_CHUNK_SIZE)) or b""
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\models.py", line 822, in generate
+    raise ConnectionError(e)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Read timed out.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "W:\PY\ZNTppt\main.py", line 140, in run_generation
+    structured_data = self.generator.parse_input(content)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "W:\PY\ZNTppt\main.py", line 241, in parse_input
+    generated_md = self.generate_outline(input_text)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "W:\PY\ZNTppt\main.py", line 228, in generate_outline
+    return self.call_deepseek_api(prompt)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "W:\PY\ZNTppt\main.py", line 220, in call_deepseek_api
+    raise Exception(f"API请求失败: {str(e)}")
+Exception: API请求失败: HTTPSConnectionPool(host='api.deepseek.com', port=443): Read timed out.
+2025-03-03 23:42:17,559 - INFO - 用户文本输入内容:
+请帮我生成一份关于人工智能的未来的PPT
+2025-03-03 23:42:17,563 - DEBUG - Starting new HTTPS connection (1): api.deepseek.com:443
+2025-03-03 23:42:18,109 - DEBUG - https://api.deepseek.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+2025-03-03 23:42:46,525 - DEBUG - API生成内容:
+```markdown
+# 人工智能的未来
+
+## 1. 人工智能的现状
+- **技术发展**：当前AI技术的成熟度与应用领域（如自然语言处理、计算机视觉等）
+- **市场规模**：全球AI市场规模及增长率（{data:market_size}）
+- **主要参与者**：全球领先的AI公司及其市场份额（{data:top_companies}）
+
+## 2. 人工智能的未来趋势
+- **技术突破**：预计未来5-10年内的技术突破（如量子计算、强化学习等）
+- **应用扩展**：AI在医疗、金融、教育等领域的潜在应用（{data:application_areas}）
+- **伦理与法规**：AI发展中的伦理问题及全球法规框架的演变（{data:ethical_concerns}）
+
+## 3. 人工智能的挑战与机遇
+- **技术挑战**：AI发展面临的技术瓶颈（如数据隐私、算法偏见等）
+- **经济影响**：AI对就业市场和经济结构的影响（{data:economic_impact}）
+- **创新机遇**：AI带来的新商业模式和创新机会（{data:innovation_opportunities}）
+
+## 4. 人工智能的社会影响
+- **教育与技能**：AI时代对教育和技能培训的需求变化（{data:education_impact}）
+- **社会不平等**：AI可能加剧的社会不平等问题及应对策略（{data:social_inequality}）
+- **全球合作**：AI发展中的国际合作与竞争态势（{data:global_cooperation}）
+
+## 5. 结论与展望
+- **未来展望**：AI在未来社会中的角色与影响（{data:future_role}）
+- **行动建议**：政府、企业和个人应如何应对AI带来的变革（{data:action_recommendations}）
+- **总结**：AI未来的关键趋势与挑战（{data:key_trends}）
+```
+
+这个大纲提供了一个结构化的框架，用于创建关于人工智能未来的PPT。每个章节都包含了关键要点，并且通过数据插入标记（如{data:market_size}）来指示在PPT中应插入的具体数据或图表。
+2025-03-03 23:42:46,526 - ERROR - 解析错误 [第1行]: 'NoneType' object is not subscriptable
+2025-03-03 23:42:46,526 - ERROR - 生成失败: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "W:\PY\ZNTppt\main.py", line 140, in run_generation
+    structured_data = self.generator.parse_input(content)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "W:\PY\ZNTppt\main.py", line 243, in parse_input
+    return self.parse_markdown(generated_md)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "W:\PY\ZNTppt\main.py", line 271, in parse_markdown
+    current_section["content"].append(line)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^
+TypeError: 'NoneType' object is not subscriptable
+2025-03-03 23:42:54,267 - INFO - 用户文本输入内容:
+请帮我生成一份关于人工智能的未来的PPT
+2025-03-03 23:42:54,270 - DEBUG - Starting new HTTPS connection (1): api.deepseek.com:443
+2025-03-03 23:42:54,832 - DEBUG - https://api.deepseek.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+2025-03-03 23:43:22,963 - DEBUG - API生成内容:
+```markdown
+# 人工智能的未来
+
+## 1. 人工智能的现状
+- **技术发展**：当前AI技术的成熟度与应用领域（如自然语言处理、计算机视觉等）
+- **市场规模**：全球AI市场规模及增长率（{data:market_size}）
+- **主要参与者**：全球领先的AI公司及其市场份额（{data:market_share}）
+
+## 2. 人工智能的未来趋势
+- **技术突破**：预测未来5-10年AI技术的突破点（如量子计算、强化学习等）
+- **应用扩展**：AI在医疗、教育、交通等领域的潜在应用（{data:application_growth}）
+- **伦理与法规**：AI发展中的伦理问题及全球法规趋势（{data:regulation_trends}）
+
+## 3. 人工智能的挑战与机遇
+- **技术挑战**：AI发展面临的技术瓶颈（如数据隐私、算法偏见等）
+- **经济机遇**：AI对全球经济的影响及潜在增长点（{data:economic_impact}）
+- **社会影响**：AI对就业、教育等社会层面的影响（{data:social_impact}）
+
+## 4. 人工智能的未来展望
+- **长期预测**：未来20-30年AI的发展方向及可能带来的变革（{data:long_term_prediction}）
+- **国际合作**：全球在AI领域的合作与竞争态势（{data:international_cooperation}）
+- **可持续发展**：AI在推动可持续发展目标中的作用（{data:sustainability_impact}）
+
+## 5. 结论与建议
+- **总结**：AI未来的关键趋势与挑战
+- **建议**：对政府、企业及个人的建议（{data:recommendations}）
+- **展望**：对AI未来发展的乐观与谨慎态度
+```
+2025-03-03 23:43:22,963 - ERROR - 解析错误 [第1行]: 'NoneType' object is not subscriptable
+2025-03-03 23:43:22,963 - ERROR - 生成失败: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "W:\PY\ZNTppt\main.py", line 140, in run_generation
+    structured_data = self.generator.parse_input(content)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "W:\PY\ZNTppt\main.py", line 243, in parse_input
+    return self.parse_markdown(generated_md)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "W:\PY\ZNTppt\main.py", line 271, in parse_markdown
+    current_section["content"].append(line)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^
+TypeError: 'NoneType' object is not subscriptable
+2025-03-03 23:45:06,332 - INFO - 用户文本输入内容:
+请帮我生成一份关于人工智能的PPT
+2025-03-03 23:45:06,340 - DEBUG - Starting new HTTPS connection (1): api.deepseek.com:443
+2025-03-03 23:45:06,970 - DEBUG - https://api.deepseek.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+2025-03-03 23:45:36,970 - ERROR - API请求失败: HTTPSConnectionPool(host='api.deepseek.com', port=443): Read timed out.
+2025-03-03 23:45:36,970 - ERROR - 生成失败: API请求失败: HTTPSConnectionPool(host='api.deepseek.com', port=443): Read timed out.
+Traceback (most recent call last):
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\response.py", line 737, in _error_catcher
+    yield
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\response.py", line 1184, in read_chunked
+    self._update_chunk_length()
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\response.py", line 1108, in _update_chunk_length
+    line = self._fp.fp.readline()  # type: ignore[union-attr]
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\socket.py", line 707, in readinto
+    return self._sock.recv_into(b)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\ssl.py", line 1252, in recv_into
+    return self.read(nbytes, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\ssl.py", line 1104, in read
+    return self._sslobj.read(len, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TimeoutError: The read operation timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\models.py", line 816, in generate
+    yield from self.raw.stream(chunk_size, decode_content=True)
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\response.py", line 1040, in stream
+    yield from self.read_chunked(amt, decode_content=decode_content)
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\response.py", line 1172, in read_chunked
+    with self._error_catcher():
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\response.py", line 742, in _error_catcher
+    raise ReadTimeoutError(self._pool, None, "Read timed out.") from e  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Read timed out.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "W:\PY\ZNTppt\main.py", line 205, in call_deepseek_api
+    response = requests.post(
+               ^^^^^^^^^^^^^^
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\sessions.py", line 747, in send
+    r.content
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\models.py", line 899, in content
+    self._content = b"".join(self.iter_content(CONTENT_CHUNK_SIZE)) or b""
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\models.py", line 822, in generate
+    raise ConnectionError(e)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Read timed out.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "W:\PY\ZNTppt\main.py", line 140, in run_generation
+    structured_data = self.generator.parse_input(content)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "W:\PY\ZNTppt\main.py", line 241, in parse_input
+    generated_md = self.generate_outline(input_text)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "W:\PY\ZNTppt\main.py", line 228, in generate_outline
+    return self.call_deepseek_api(prompt)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "W:\PY\ZNTppt\main.py", line 220, in call_deepseek_api
+    raise Exception(f"API请求失败: {str(e)}")
+Exception: API请求失败: HTTPSConnectionPool(host='api.deepseek.com', port=443): Read timed out.
+2025-03-03 23:46:36,211 - INFO - 用户文本输入内容:
+请帮我生成一份关于人工智能的PPT
+2025-03-03 23:46:36,214 - DEBUG - Starting new HTTPS connection (1): api.deepseek.com:443
+2025-03-03 23:46:36,711 - DEBUG - https://api.deepseek.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+2025-03-03 23:47:06,712 - ERROR - API请求失败: HTTPSConnectionPool(host='api.deepseek.com', port=443): Read timed out.
+2025-03-03 23:47:06,712 - ERROR - 生成失败: API请求失败: HTTPSConnectionPool(host='api.deepseek.com', port=443): Read timed out.
+Traceback (most recent call last):
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\response.py", line 737, in _error_catcher
+    yield
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\response.py", line 1184, in read_chunked
+    self._update_chunk_length()
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\response.py", line 1108, in _update_chunk_length
+    line = self._fp.fp.readline()  # type: ignore[union-attr]
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\socket.py", line 707, in readinto
+    return self._sock.recv_into(b)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\ssl.py", line 1252, in recv_into
+    return self.read(nbytes, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\ssl.py", line 1104, in read
+    return self._sslobj.read(len, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TimeoutError: The read operation timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\models.py", line 816, in generate
+    yield from self.raw.stream(chunk_size, decode_content=True)
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\response.py", line 1040, in stream
+    yield from self.read_chunked(amt, decode_content=decode_content)
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\response.py", line 1172, in read_chunked
+    with self._error_catcher():
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\response.py", line 742, in _error_catcher
+    raise ReadTimeoutError(self._pool, None, "Read timed out.") from e  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Read timed out.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "W:\PY\ZNTppt\main.py", line 205, in call_deepseek_api
+    response = requests.post(
+               ^^^^^^^^^^^^^^
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\sessions.py", line 747, in send
+    r.content
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\models.py", line 899, in content
+    self._content = b"".join(self.iter_content(CONTENT_CHUNK_SIZE)) or b""
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\models.py", line 822, in generate
+    raise ConnectionError(e)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Read timed out.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "W:\PY\ZNTppt\main.py", line 140, in run_generation
+    structured_data = self.generator.parse_input(content)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "W:\PY\ZNTppt\main.py", line 241, in parse_input
+    generated_md = self.generate_outline(input_text)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "W:\PY\ZNTppt\main.py", line 228, in generate_outline
+    return self.call_deepseek_api(prompt)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "W:\PY\ZNTppt\main.py", line 220, in call_deepseek_api
+    raise Exception(f"API请求失败: {str(e)}")
+Exception: API请求失败: HTTPSConnectionPool(host='api.deepseek.com', port=443): Read timed out.
+2025-03-03 23:47:17,572 - INFO - 用户文本输入内容:
+请帮我生成一份关于人工智能的PPT
+2025-03-03 23:47:17,575 - DEBUG - Starting new HTTPS connection (1): api.deepseek.com:443
+2025-03-03 23:47:18,127 - DEBUG - https://api.deepseek.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+2025-03-03 23:47:48,129 - ERROR - API请求失败: HTTPSConnectionPool(host='api.deepseek.com', port=443): Read timed out.
+2025-03-03 23:47:48,129 - ERROR - 生成失败: API请求失败: HTTPSConnectionPool(host='api.deepseek.com', port=443): Read timed out.
+Traceback (most recent call last):
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\response.py", line 737, in _error_catcher
+    yield
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\response.py", line 1184, in read_chunked
+    self._update_chunk_length()
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\response.py", line 1108, in _update_chunk_length
+    line = self._fp.fp.readline()  # type: ignore[union-attr]
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\socket.py", line 707, in readinto
+    return self._sock.recv_into(b)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\ssl.py", line 1252, in recv_into
+    return self.read(nbytes, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\ssl.py", line 1104, in read
+    return self._sslobj.read(len, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TimeoutError: The read operation timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\models.py", line 816, in generate
+    yield from self.raw.stream(chunk_size, decode_content=True)
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\response.py", line 1040, in stream
+    yield from self.read_chunked(amt, decode_content=decode_content)
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\response.py", line 1172, in read_chunked
+    with self._error_catcher():
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\response.py", line 742, in _error_catcher
+    raise ReadTimeoutError(self._pool, None, "Read timed out.") from e  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Read timed out.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "W:\PY\ZNTppt\main.py", line 205, in call_deepseek_api
+    response = requests.post(
+               ^^^^^^^^^^^^^^
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\sessions.py", line 747, in send
+    r.content
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\models.py", line 899, in content
+    self._content = b"".join(self.iter_content(CONTENT_CHUNK_SIZE)) or b""
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\14871\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\models.py", line 822, in generate
+    raise ConnectionError(e)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Read timed out.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "W:\PY\ZNTppt\main.py", line 140, in run_generation
+    structured_data = self.generator.parse_input(content)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "W:\PY\ZNTppt\main.py", line 241, in parse_input
+    generated_md = self.generate_outline(input_text)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "W:\PY\ZNTppt\main.py", line 228, in generate_outline
+    return self.call_deepseek_api(prompt)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "W:\PY\ZNTppt\main.py", line 220, in call_deepseek_api
+    raise Exception(f"API请求失败: {str(e)}")
+Exception: API请求失败: HTTPSConnectionPool(host='api.deepseek.com', port=443): Read timed out.
+2025-03-03 23:49:46,790 - INFO - 用户文本输入内容:
+请帮我生成一份关于人工智能的PPT
+2025-03-03 23:49:46,795 - DEBUG - Starting new HTTPS connection (1): api.deepseek.com:443
+2025-03-03 23:49:47,344 - DEBUG - https://api.deepseek.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+2025-03-03 23:50:09,861 - DEBUG - API生成内容:
+```markdown
+# 人工智能概述
+
+## 1. 人工智能简介
+- 定义与背景
+  - 人工智能的定义
+  - 发展历史与里程碑
+- 主要应用领域
+  - 医疗保健
+  - 金融服务
+  - 自动驾驶
+
+## 2. 人工智能技术
+- 机器学习
+  - 监督学习
+  - 无监督学习
+- 深度学习
+  - 神经网络
+  - 卷积神经网络（CNN）
+- 自然语言处理（NLP）
+  - 文本分析
+  - 语音识别
+
+## 3. 人工智能市场分析
+- 市场规模
+  - 全球市场规模：{data:market_size}
+  - 区域市场分布
+- 主要参与者
+  - 领先企业
+  - 初创公司
+
+## 4. 人工智能的挑战与机遇
+- 技术挑战
+  - 数据隐私与安全
+  - 算法偏见
+- 社会影响
+  - 就业市场变化
+  - 伦理与法律问题
+
+## 5. 未来趋势
+- 技术发展趋势
+  - 边缘计算与AI
+  - 量子计算与AI
+- 行业应用前景
+  - 智能制造
+  - 智慧城市
+
+# 数据插入标记
+- 全球市场规模：{data:market_size}
+- 区域市场分布：{data:regional_distribution}
+- 领先企业：{data:leading_companies}
+- 初创公司：{data:startups}
+```
+
+这个大纲提供了一个清晰的结构，涵盖了人工智能的主要方面，并包含了数据插入标记，以便在实际制作PPT时填充具体数据。
+2025-03-03 23:50:09,861 - ERROR - 解析错误 [第1行]: 'NoneType' object is not subscriptable
+2025-03-03 23:50:09,861 - ERROR - 生成失败: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "W:\PY\ZNTppt\main.py", line 140, in run_generation
+    structured_data = self.generator.parse_input(content)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "W:\PY\ZNTppt\main.py", line 243, in parse_input
+    return self.parse_markdown(generated_md)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "W:\PY\ZNTppt\main.py", line 271, in parse_markdown
+    current_section["content"].append(line)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^
+TypeError: 'NoneType' object is not subscriptable
+2025-03-03 23:55:50,416 - INFO - 用户文本输入内容:
+
+2025-03-03 23:55:50,419 - ERROR - 生成失败: 输入内容不能为空
+Traceback (most recent call last):
+  File "W:\PY\ZNTppt\main.py", line 140, in run_generation
+    structured_data = self.generator.parse_input(content)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "W:\PY\ZNTppt\main.py", line 232, in parse_input
+    raise ValueError("输入内容不能为空")
+ValueError: 输入内容不能为空

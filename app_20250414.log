@@ -1,0 +1,123 @@
+2025-04-14 21:12:06,392 - INFO - 初始化窗口大小: 1200x900
+2025-04-14 21:12:07,441 - INFO - 界面初始化完成
+2025-04-14 21:16:27,957 - DEBUG - 解析封面标题: Python知识点讲解PPT大纲
+2025-04-14 21:16:27,957 - DEBUG - 解析二级标题: 第一章：Python简介与基础语法
+2025-04-14 21:16:27,957 - DEBUG - 解析二级标题: 第二章：Python数据结构与算法
+2025-04-14 21:16:27,957 - DEBUG - 解析二级标题: 第三章：Python面向对象编程
+2025-04-14 21:16:27,957 - DEBUG - 解析二级标题: 第四章：Python高级特性
+2025-04-14 21:17:42,335 - ERROR - 模板文件不存在: template_edu.pptx
+2025-04-14 21:17:59,375 - INFO - 初始化窗口大小: 1200x900
+2025-04-14 21:18:00,181 - INFO - 界面初始化完成
+2025-04-14 21:18:09,065 - INFO - 用户选择模板: 学术答辩类 -> template_academic.pptx
+2025-04-14 21:18:12,562 - ERROR - 模板文件不存在: template_edu.pptx
+2025-04-14 21:18:20,314 - INFO - 初始化窗口大小: 1200x900
+2025-04-14 21:18:21,040 - INFO - 界面初始化完成
+2025-04-14 21:18:24,179 - ERROR - 模板文件不存在: template_edu.pptx
+2025-04-14 21:18:36,362 - INFO - 初始化窗口大小: 1200x900
+2025-04-14 21:18:37,115 - INFO - 界面初始化完成
+2025-04-14 21:18:59,214 - INFO - 用户选择模板: 学术答辩类 -> template_academic.pptx
+2025-04-14 21:19:01,232 - DEBUG - Starting new HTTPS connection (1): api.deepseek.com:443
+2025-04-14 21:19:01,561 - DEBUG - https://api.deepseek.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+2025-04-14 21:19:52,863 - DEBUG - API返回内容长度: 1997 字符, 内容: ```markdown
+# Python编程语言：从入门到实践
+
+## 1. Python简介与市场地位
+### 1.1 语言特性
+- 解释型/动态类型/多范式支持（OOP、函数式编程）
+- 代码可读...
+2025-04-14 21:19:52,863 - INFO - 生成的大纲长度: 1500 字符, 大纲: ```markdown
+# Python编程语言：从入门到实践
+
+## 1. Python简介与市场地位
+### 1.1 语言特性
+- 解释型/动态类型/多范式支持（OOP、函数式编程）
+- 代码可读性高（强制缩进规则）
+- 示例：`print("Hello World")` vs Java的`System.out.println()`
+
+### 1.2 市场份额
+- {data:market_size} 2023年全球开发者占比27%（Stack Overflow调查）
+- TIOBE指数长期TOP3（2023年8月第1名）
+- GitHub语言使用量连续5年第一
+
+### 1.3 主要应用领域
+- Web开发（Django/Flask）
+- 数据分析（Pandas/Numpy）
+- 人工智能（TensorFlow/PyTorch）
+- 自动化运维（Ansible）
+
+## 2. 核心语法精要
+### 2.1 数据结构
+```python
+# 示例：字典推导式
+{chr(i): i for i in range(97, 100)}  # {'a':97, 'b':98, 'c':99}
+```
+
+### 2.2 控制流程
+- 上下文管理器（`with open() as f`）
+- 异常处理（try-except-else-finally）
+- 海象运算符（Python 3.8+ `:=`）
+
+### 2.3 函数特性
+- 可变参数（`*args, **kwargs`）
+- 装饰器原理与应用
+- 类型注解（Type Hints）
+
+## 3. 热门应用场景
+### 3.1 数据分析
+- Pandas处理Excel示例：
+```python
+df.groupby('department')['salary'].mean()
+```
+
+### 3.2 Web开发
+- FastAPI异步性能对比：
+  - Node.js: {data:req_per_sec_node}
+  - FastAPI: {data:req_per_sec_fastapi}
+
+### 3.3 机器学习
+- Scikit-learn模型训练流程：
+  1. 数据标准化（StandardScaler）
+  2. 交叉验证（cross_val_score）
+  3. 超参数优化（GridSearchCV）
+
+## 4. 性能优化技巧
+### 4.1 代码层面
+- 列表推导 vs 循环（速度提升{data:listcomp_speedup}x）
+- 使用`functools.lru_cache`缓存
+- 避免全局变量查找
+
+### 4.2 工具链
+- Cython编译加速（性能提升30-50%）
+- Numba即时编译（数值计算优化）
+- 多进程（multiprocessing.Pool）
+
+### 4.3 内存管理
+- 生成器替代大列表（`yield`）
+- `__slots__`减少对象内存占用
+- 内存分析工具（memory_profiler）
+
+## 5. 学习路径建议
+### 5.1 初学者路线
+1. 基础语法（3周）
+2. 项目实战：爬虫/自动化办公（2周）
+3. 算法训练（LeetCode简单题）
+
+### 5.2 中级提升
+- 参与开源项目（Good First Issue）
+- 阅读CPython源码（如collections模块）
+- 性能基准测试（timeit模块）
+
+### 5.3 专业方向选择
+- Web全栈：Django + Vue.js
+- 数据科学：P
+2025-04-14 21:19:52,863 - DEBUG - 解析封面标题: Python编程语言：从入门到实践
+2025-04-14 21:19:52,864 - DEBUG - 解析二级标题: 1. Python简介与市场地位
+2025-04-14 21:19:52,864 - DEBUG - 解析二级标题: 2. 核心语法精要
+2025-04-14 21:19:52,864 - DEBUG - 解析封面标题: 示例：字典推导式
+2025-04-14 21:19:52,864 - DEBUG - 解析二级标题: 3. 热门应用场景
+2025-04-14 21:19:52,864 - DEBUG - 解析二级标题: 4. 性能优化技巧
+2025-04-14 21:19:52,864 - DEBUG - 解析二级标题: 5. 学习路径建议
+2025-04-14 21:21:58,508 - INFO - 初始化窗口大小: 1200x900
+2025-04-14 21:21:59,370 - INFO - 界面初始化完成
+2025-04-14 21:25:29,154 - DEBUG - Starting new HTTPS connection (1): api.deepseek.com:443
+2025-04-14 21:25:29,466 - DEBUG - https://api.deepseek.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
