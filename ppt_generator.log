@@ -1,0 +1,408 @@
+2025-03-03 20:41:28,307 - INFO - 用户文本输入内容:
+生成一份关于人工智能的PPT
+2025-03-03 20:41:28,314 - DEBUG - Starting new HTTPS connection (1): api.deepseek.com:443
+2025-03-03 20:41:28,929 - DEBUG - https://api.deepseek.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+2025-03-03 20:41:57,720 - DEBUG - API生成内容:
+```markdown
+# 人工智能：现状与未来
+
+## 1. 人工智能概述
+- **定义与背景**  
+  - 人工智能的定义  
+  - 人工智能的发展历程  
+- **核心技术**  
+  - 机器学习  
+  - 深度学习  
+  - 自然语言处理  
+
+## 2. 人工智能的应用领域
+- **医疗健康**  
+  - 疾病诊断与预测 {data:healthcare_ai_market}  
+  - 药物研发  
+- **金融科技**  
+  - 风险管理与欺诈检测 {data:fintech_ai_market}  
+  - 智能投顾  
+- **自动驾驶**  
+  - 自动驾驶技术进展 {data:autonomous_vehicles_market}  
+  - 安全与法规  
+
+## 3. 人工智能的市场与趋势
+- **市场规模**  
+  - 全球人工智能市场规模 {data:global_ai_market}  
+  - 各地区市场分布  
+- **未来趋势**  
+  - 人工智能与物联网的结合  
+  - 人工智能伦理与隐私问题  
+
+## 4. 人工智能的挑战与机遇
+- **技术挑战**  
+  - 数据质量与可用性  
+  - 算法透明度与可解释性  
+- **社会影响**  
+  - 就业市场的变化 {data:ai_job_impact}  
+  - 人工智能的伦理问题  
+
+## 5. 结论与展望
+- **总结**  
+  - 人工智能的现状与未来  
+- **展望**  
+  - 人工智能的未来发展方向  
+  - 对社会的深远影响  
+```
+
+### 数据插入标记说明：
+- `{data:market_size}`: 插入市场规模数据  
+- `{data:healthcare_ai_market}`: 插入医疗健康领域人工智能市场规模数据  
+- `{data:fintech_ai_market}`: 插入金融科技领域人工智能市场规模数据  
+- `{data:autonomous_vehicles_market}`: 插入自动驾驶领域市场规模数据  
+- `{data:global_ai_market}`: 插入全球人工智能市场规模数据  
+- `{data:ai_job_impact}`: 插入人工智能对就业市场影响的数据
+2025-03-03 20:41:57,724 - DEBUG - 结构化数据: {
+  "title": "\u4eba\u5de5\u667a\u80fd\uff1a\u73b0\u72b6\u4e0e\u672a\u6765",
+  "sections": [
+    {
+      "title": "1. \u4eba\u5de5\u667a\u80fd\u6982\u8ff0",
+      "content": [
+        "**\u5b9a\u4e49\u4e0e\u80cc\u666f**",
+        "\u4eba\u5de5\u667a\u80fd\u7684\u5b9a\u4e49",
+        "\u4eba\u5de5\u667a\u80fd\u7684\u53d1\u5c55\u5386\u7a0b",
+        "**\u6838\u5fc3\u6280\u672f**",
+        "\u673a\u5668\u5b66\u4e60",
+        "\u6df1\u5ea6\u5b66\u4e60",
+        "\u81ea\u7136\u8bed\u8a00\u5904\u7406"
+      ]
+    },
+    {
+      "title": "2. \u4eba\u5de5\u667a\u80fd\u7684\u5e94\u7528\u9886\u57df",
+      "content": [
+        "**\u533b\u7597\u5065\u5eb7**",
+        "\u75be\u75c5\u8bca\u65ad\u4e0e\u9884\u6d4b {data:healthcare_ai_market}",
+        "\u836f\u7269\u7814\u53d1",
+        "**\u91d1\u878d\u79d1\u6280**",
+        "\u98ce\u9669\u7ba1\u7406\u4e0e\u6b3a\u8bc8\u68c0\u6d4b {data:fintech_ai_market}",
+        "\u667a\u80fd\u6295\u987e",
+        "**\u81ea\u52a8\u9a7e\u9a76**",
+        "\u81ea\u52a8\u9a7e\u9a76\u6280\u672f\u8fdb\u5c55 {data:autonomous_vehicles_market}",
+        "\u5b89\u5168\u4e0e\u6cd5\u89c4"
+      ]
+    },
+    {
+      "title": "3. \u4eba\u5de5\u667a\u80fd\u7684\u5e02\u573a\u4e0e\u8d8b\u52bf",
+      "content": [
+        "**\u5e02\u573a\u89c4\u6a21**",
+        "\u5168\u7403\u4eba\u5de5\u667a\u80fd\u5e02\u573a\u89c4\u6a21 {data:global_ai_market}",
+        "\u5404\u5730\u533a\u5e02\u573a\u5206\u5e03",
+        "**\u672a\u6765\u8d8b\u52bf**",
+        "\u4eba\u5de5\u667a\u80fd\u4e0e\u7269\u8054\u7f51\u7684\u7ed3\u5408",
+        "\u4eba\u5de5\u667a\u80fd\u4f26\u7406\u4e0e\u9690\u79c1\u95ee\u9898"
+      ]
+    },
+    {
+      "title": "4. \u4eba\u5de5\u667a\u80fd\u7684\u6311\u6218\u4e0e\u673a\u9047",
+      "content": [
+        "**\u6280\u672f\u6311\u6218**",
+        "\u6570\u636e\u8d28\u91cf\u4e0e\u53ef\u7528\u6027",
+        "\u7b97\u6cd5\u900f\u660e\u5ea6\u4e0e\u53ef\u89e3\u91ca\u6027",
+        "**\u793e\u4f1a\u5f71\u54cd**",
+        "\u5c31\u4e1a\u5e02\u573a\u7684\u53d8\u5316 {data:ai_job_impact}",
+        "\u4eba\u5de5\u667a\u80fd\u7684\u4f26\u7406\u95ee\u9898"
+      ]
+    },
+    {
+      "title": "5. \u7ed3\u8bba\u4e0e\u5c55\u671b",
+      "content": [
+        "**\u603b\u7ed3**",
+        "\u4eba\u5de5\u667a\u80fd\u7684\u73b0\u72b6\u4e0e\u672a\u6765",
+        "**\u5c55\u671b**",
+        "\u4eba\u5de5\u667a\u80fd\u7684\u672a\u6765\u53d1\u5c55\u65b9\u5411",
+        "\u5bf9\u793e\u4f1a\u7684\u6df1\u8fdc\u5f71\u54cd",
+        "`{data:market_size}`: \u63d2\u5165\u5e02\u573a\u89c4\u6a21\u6570\u636e",
+        "`{data:healthcare_ai_market}`: \u63d2\u5165\u533b\u7597\u5065\u5eb7\u9886\u57df\u4eba\u5de5\u667a\u80fd\u5e02\u573a\u89c4\u6a21\u6570\u636e",
+        "`{data:fintech_ai_market}`: \u63d2\u5165\u91d1\u878d\u79d1\u6280\u9886\u57df\u4eba\u5de5\u667a\u80fd\u5e02\u573a\u89c4\u6a21\u6570\u636e",
+        "`{data:autonomous_vehicles_market}`: \u63d2\u5165\u81ea\u52a8\u9a7e\u9a76\u9886\u57df\u5e02\u573a\u89c4\u6a21\u6570\u636e",
+        "`{data:global_ai_market}`: \u63d2\u5165\u5168\u7403\u4eba\u5de5\u667a\u80fd\u5e02\u573a\u89c4\u6a21\u6570\u636e",
+        "`{data:ai_job_impact}`: \u63d2\u5165\u4eba\u5de5\u667a\u80fd\u5bf9\u5c31\u4e1a\u5e02\u573a\u5f71\u54cd\u7684\u6570\u636e"
+      ]
+    }
+  ]
+}
+2025-03-03 20:41:57,758 - ERROR - 生成失败: 'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "W:\PY\ZNTppt\main.py", line 156, in run_generation
+    final_path = self.generator.build_ppt(structured_data, output_path)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "W:\PY\ZNTppt\main.py", line 313, in build_ppt
+    title_box.text = data["title"]
+    ^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'text'
+2025-03-03 20:46:21,234 - INFO - 用户文本输入内容:
+生成一份关于人工智能的PPT
+2025-03-03 20:46:21,238 - DEBUG - Starting new HTTPS connection (1): api.deepseek.com:443
+2025-03-03 20:46:21,763 - DEBUG - https://api.deepseek.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+2025-03-03 20:46:41,997 - DEBUG - API生成内容:
+```markdown
+# 人工智能：现状与未来
+
+## 1. 人工智能概述
+- **定义与背景**
+  - 人工智能的定义
+  - 人工智能的历史发展
+- **主要技术**
+  - 机器学习
+  - 深度学习
+  - 自然语言处理
+
+## 2. 人工智能的应用领域
+- **医疗健康**
+  - 疾病诊断与预测
+  - 药物研发
+- **金融科技**
+  - 风险评估与管理
+  - 自动化交易系统
+- **智能交通**
+  - 自动驾驶技术
+  - 交通流量优化
+
+## 3. 人工智能的市场与趋势
+- **市场规模**
+  - 全球人工智能市场规模：{data:market_size}
+  - 主要市场参与者
+- **未来趋势**
+  - 人工智能与物联网的融合
+  - 人工智能在边缘计算中的应用
+
+## 4. 人工智能的挑战与伦理
+- **技术挑战**
+  - 数据隐私与安全
+  - 算法偏见与公平性
+- **伦理问题**
+  - 人工智能的决策透明度
+  - 人工智能对就业的影响
+
+## 5. 结论与展望
+- **总结**
+  - 人工智能的现状与潜力
+  - 未来发展方向
+- **展望**
+  - 人工智能对社会的影响
+  - 持续创新与合作的必要性
+```
+
+这个大纲提供了一个清晰的结构，涵盖了人工智能的主要方面，并留出了插入具体数据的标记位置。
+2025-03-03 20:46:41,998 - DEBUG - 结构化数据: {
+  "title": "\u4eba\u5de5\u667a\u80fd\uff1a\u73b0\u72b6\u4e0e\u672a\u6765",
+  "sections": [
+    {
+      "title": "1. \u4eba\u5de5\u667a\u80fd\u6982\u8ff0",
+      "content": [
+        "**\u5b9a\u4e49\u4e0e\u80cc\u666f**",
+        "\u4eba\u5de5\u667a\u80fd\u7684\u5b9a\u4e49",
+        "\u4eba\u5de5\u667a\u80fd\u7684\u5386\u53f2\u53d1\u5c55",
+        "**\u4e3b\u8981\u6280\u672f**",
+        "\u673a\u5668\u5b66\u4e60",
+        "\u6df1\u5ea6\u5b66\u4e60",
+        "\u81ea\u7136\u8bed\u8a00\u5904\u7406"
+      ]
+    },
+    {
+      "title": "2. \u4eba\u5de5\u667a\u80fd\u7684\u5e94\u7528\u9886\u57df",
+      "content": [
+        "**\u533b\u7597\u5065\u5eb7**",
+        "\u75be\u75c5\u8bca\u65ad\u4e0e\u9884\u6d4b",
+        "\u836f\u7269\u7814\u53d1",
+        "**\u91d1\u878d\u79d1\u6280**",
+        "\u98ce\u9669\u8bc4\u4f30\u4e0e\u7ba1\u7406",
+        "\u81ea\u52a8\u5316\u4ea4\u6613\u7cfb\u7edf",
+        "**\u667a\u80fd\u4ea4\u901a**",
+        "\u81ea\u52a8\u9a7e\u9a76\u6280\u672f",
+        "\u4ea4\u901a\u6d41\u91cf\u4f18\u5316"
+      ]
+    },
+    {
+      "title": "3. \u4eba\u5de5\u667a\u80fd\u7684\u5e02\u573a\u4e0e\u8d8b\u52bf",
+      "content": [
+        "**\u5e02\u573a\u89c4\u6a21**",
+        "\u5168\u7403\u4eba\u5de5\u667a\u80fd\u5e02\u573a\u89c4\u6a21\uff1a{data:market_size}",
+        "\u4e3b\u8981\u5e02\u573a\u53c2\u4e0e\u8005",
+        "**\u672a\u6765\u8d8b\u52bf**",
+        "\u4eba\u5de5\u667a\u80fd\u4e0e\u7269\u8054\u7f51\u7684\u878d\u5408",
+        "\u4eba\u5de5\u667a\u80fd\u5728\u8fb9\u7f18\u8ba1\u7b97\u4e2d\u7684\u5e94\u7528"
+      ]
+    },
+    {
+      "title": "4. \u4eba\u5de5\u667a\u80fd\u7684\u6311\u6218\u4e0e\u4f26\u7406",
+      "content": [
+        "**\u6280\u672f\u6311\u6218**",
+        "\u6570\u636e\u9690\u79c1\u4e0e\u5b89\u5168",
+        "\u7b97\u6cd5\u504f\u89c1\u4e0e\u516c\u5e73\u6027",
+        "**\u4f26\u7406\u95ee\u9898**",
+        "\u4eba\u5de5\u667a\u80fd\u7684\u51b3\u7b56\u900f\u660e\u5ea6",
+        "\u4eba\u5de5\u667a\u80fd\u5bf9\u5c31\u4e1a\u7684\u5f71\u54cd"
+      ]
+    },
+    {
+      "title": "5. \u7ed3\u8bba\u4e0e\u5c55\u671b",
+      "content": [
+        "**\u603b\u7ed3**",
+        "\u4eba\u5de5\u667a\u80fd\u7684\u73b0\u72b6\u4e0e\u6f5c\u529b",
+        "\u672a\u6765\u53d1\u5c55\u65b9\u5411",
+        "**\u5c55\u671b**",
+        "\u4eba\u5de5\u667a\u80fd\u5bf9\u793e\u4f1a\u7684\u5f71\u54cd",
+        "\u6301\u7eed\u521b\u65b0\u4e0e\u5408\u4f5c\u7684\u5fc5\u8981\u6027"
+      ]
+    }
+  ]
+}
+2025-03-03 20:46:42,107 - ERROR - 生成失败: 'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "W:\PY\ZNTppt\main.py", line 156, in run_generation
+    final_path = self.generator.build_ppt(structured_data, output_path)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "W:\PY\ZNTppt\main.py", line 313, in build_ppt
+    title_box.text = data["title"]
+    ^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'text'
+2025-03-03 20:47:36,487 - INFO - 用户文本输入内容:
+生成一份关于人工智能的PPT
+2025-03-03 20:47:36,492 - DEBUG - Starting new HTTPS connection (1): api.deepseek.com:443
+2025-03-03 20:47:36,967 - DEBUG - https://api.deepseek.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+2025-03-03 20:48:02,909 - DEBUG - API生成内容:
+```markdown
+# 人工智能：现状与未来
+
+## 1. 人工智能概述
+- **定义与背景**
+  - 人工智能的定义
+  - 人工智能的发展历程
+- **主要技术**
+  - 机器学习
+  - 深度学习
+  - 自然语言处理
+
+## 2. 人工智能的应用领域
+- **医疗健康**
+  - 疾病诊断与预测
+  - 个性化治疗方案
+- **金融科技**
+  - 风险评估与管理
+  - 自动化交易系统
+- **智能交通**
+  - 自动驾驶技术
+  - 交通流量优化
+
+## 3. 人工智能的市场现状
+- **市场规模**
+  - 全球人工智能市场规模：{data:market_size}
+  - 主要市场参与者
+- **投资趋势**
+  - 风险投资与并购活动
+  - 政府与企业的投资比例
+
+## 4. 人工智能的挑战与风险
+- **技术挑战**
+  - 数据隐私与安全
+  - 算法偏见与公平性
+- **社会影响**
+  - 就业市场的变化
+  - 伦理与法律问题
+
+## 5. 人工智能的未来展望
+- **技术发展趋势**
+  - 量子计算与人工智能
+  - 边缘计算与物联网
+- **社会与经济影响**
+  - 人工智能对全球经济的影响
+  - 人工智能与可持续发展目标
+
+## 6. 结论
+- **总结**
+  - 人工智能的现状与未来
+  - 对个人与企业的建议
+- **Q&A**
+  - 开放讨论与问题解答
+```
+
+这个大纲提供了一个全面的框架，涵盖了人工智能的定义、应用、市场现状、挑战与风险以及未来展望。每个章节都列出了2-3个要点，并包含了数据插入标记，以便在实际制作PPT时插入具体数据。
+2025-03-03 20:48:02,909 - DEBUG - 结构化数据: {
+  "title": "\u4eba\u5de5\u667a\u80fd\uff1a\u73b0\u72b6\u4e0e\u672a\u6765",
+  "sections": [
+    {
+      "title": "1. \u4eba\u5de5\u667a\u80fd\u6982\u8ff0",
+      "content": [
+        "**\u5b9a\u4e49\u4e0e\u80cc\u666f**",
+        "\u4eba\u5de5\u667a\u80fd\u7684\u5b9a\u4e49",
+        "\u4eba\u5de5\u667a\u80fd\u7684\u53d1\u5c55\u5386\u7a0b",
+        "**\u4e3b\u8981\u6280\u672f**",
+        "\u673a\u5668\u5b66\u4e60",
+        "\u6df1\u5ea6\u5b66\u4e60",
+        "\u81ea\u7136\u8bed\u8a00\u5904\u7406"
+      ]
+    },
+    {
+      "title": "2. \u4eba\u5de5\u667a\u80fd\u7684\u5e94\u7528\u9886\u57df",
+      "content": [
+        "**\u533b\u7597\u5065\u5eb7**",
+        "\u75be\u75c5\u8bca\u65ad\u4e0e\u9884\u6d4b",
+        "\u4e2a\u6027\u5316\u6cbb\u7597\u65b9\u6848",
+        "**\u91d1\u878d\u79d1\u6280**",
+        "\u98ce\u9669\u8bc4\u4f30\u4e0e\u7ba1\u7406",
+        "\u81ea\u52a8\u5316\u4ea4\u6613\u7cfb\u7edf",
+        "**\u667a\u80fd\u4ea4\u901a**",
+        "\u81ea\u52a8\u9a7e\u9a76\u6280\u672f",
+        "\u4ea4\u901a\u6d41\u91cf\u4f18\u5316"
+      ]
+    },
+    {
+      "title": "3. \u4eba\u5de5\u667a\u80fd\u7684\u5e02\u573a\u73b0\u72b6",
+      "content": [
+        "**\u5e02\u573a\u89c4\u6a21**",
+        "\u5168\u7403\u4eba\u5de5\u667a\u80fd\u5e02\u573a\u89c4\u6a21\uff1a{data:market_size}",
+        "\u4e3b\u8981\u5e02\u573a\u53c2\u4e0e\u8005",
+        "**\u6295\u8d44\u8d8b\u52bf**",
+        "\u98ce\u9669\u6295\u8d44\u4e0e\u5e76\u8d2d\u6d3b\u52a8",
+        "\u653f\u5e9c\u4e0e\u4f01\u4e1a\u7684\u6295\u8d44\u6bd4\u4f8b"
+      ]
+    },
+    {
+      "title": "4. \u4eba\u5de5\u667a\u80fd\u7684\u6311\u6218\u4e0e\u98ce\u9669",
+      "content": [
+        "**\u6280\u672f\u6311\u6218**",
+        "\u6570\u636e\u9690\u79c1\u4e0e\u5b89\u5168",
+        "\u7b97\u6cd5\u504f\u89c1\u4e0e\u516c\u5e73\u6027",
+        "**\u793e\u4f1a\u5f71\u54cd**",
+        "\u5c31\u4e1a\u5e02\u573a\u7684\u53d8\u5316",
+        "\u4f26\u7406\u4e0e\u6cd5\u5f8b\u95ee\u9898"
+      ]
+    },
+    {
+      "title": "5. \u4eba\u5de5\u667a\u80fd\u7684\u672a\u6765\u5c55\u671b",
+      "content": [
+        "**\u6280\u672f\u53d1\u5c55\u8d8b\u52bf**",
+        "\u91cf\u5b50\u8ba1\u7b97\u4e0e\u4eba\u5de5\u667a\u80fd",
+        "\u8fb9\u7f18\u8ba1\u7b97\u4e0e\u7269\u8054\u7f51",
+        "**\u793e\u4f1a\u4e0e\u7ecf\u6d4e\u5f71\u54cd**",
+        "\u4eba\u5de5\u667a\u80fd\u5bf9\u5168\u7403\u7ecf\u6d4e\u7684\u5f71\u54cd",
+        "\u4eba\u5de5\u667a\u80fd\u4e0e\u53ef\u6301\u7eed\u53d1\u5c55\u76ee\u6807"
+      ]
+    },
+    {
+      "title": "6. \u7ed3\u8bba",
+      "content": [
+        "**\u603b\u7ed3**",
+        "\u4eba\u5de5\u667a\u80fd\u7684\u73b0\u72b6\u4e0e\u672a\u6765",
+        "\u5bf9\u4e2a\u4eba\u4e0e\u4f01\u4e1a\u7684\u5efa\u8bae",
+        "**Q&A**",
+        "\u5f00\u653e\u8ba8\u8bba\u4e0e\u95ee\u9898\u89e3\u7b54"
+      ]
+    }
+  ]
+}
+2025-03-03 20:48:02,943 - ERROR - 生成失败: 'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "W:\PY\ZNTppt\main.py", line 156, in run_generation
+    final_path = self.generator.build_ppt(structured_data, output_path)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "W:\PY\ZNTppt\main.py", line 313, in build_ppt
+    title_box.text = data["title"]
+    ^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'text'
