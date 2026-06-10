@@ -12,6 +12,7 @@ AutoPPT 是一个基于 Python、PyQt5、DeepSeek API 与 python-pptx 的桌面�
 - **模板选择**：内置教学、政务、学术、简约等 PPT 模板。
 - **图表生成**：从 Excel 数据生成饼图、柱状图、折线图、散点图、热力图、直方图和气泡图。
 - **中英互译**：提供桌面端文本翻译入口，适合演示文稿内容整理。
+- **大纲预检**：提供 `scripts/outline_lint.py`，在生成 PPT 前检查 Markdown 大纲层级、空章节和预计页数。
 - **桌面界面**：使用 PyQt5 构建，支持文件选择、输出目录配置、进度提示与取消任务。
 
 ## 环境要求
@@ -61,6 +62,13 @@ python PPT.py
 4. 先生成大纲并确认，再生成最终 PPT。
 5. 图表模式下选择 Excel 文件、图表类型和输出格式。
 
+大纲预检：
+
+```bash
+python scripts/outline_lint.py outline.md
+python scripts/outline_lint.py outline.md --json
+```
+
 ## 安全说明
 
 API Key 不应写入源码或提交到仓库。当前版本从 `DEEPSEEK_API_KEY` 环境变量读取密钥。若历史提交中曾出现真实密钥，请立即到服务商控制台吊销并重新生成。
@@ -70,6 +78,7 @@ API Key 不应写入源码或提交到仓库。当前版本从 `DEEPSEEK_API_KEY
 ```text
 main.py                 整合版桌面应用
 PPT.py                  旧版 PPT 生成入口
+scripts/outline_lint.py Markdown 大纲预检工具
 template_*.pptx         演示文稿模板
 data_init/              UI 图片与初始化资源
 output/                 示例或生成结果目录
@@ -88,6 +97,7 @@ It is designed for teaching materials, government reports, academic defenses, an
 - **Template selection**: includes teaching, government, academic, and simple presentation templates.
 - **Chart generation**: creates pie, bar, line, scatter, heatmap, histogram, and bubble charts from Excel files.
 - **Chinese-English translation**: provides a desktop entry point for preparing bilingual presentation content.
+- **Outline linting**: provides `scripts/outline_lint.py` to check Markdown heading levels, empty sections, and estimated slide counts before deck generation.
 - **Desktop UI**: built with PyQt5, including file pickers, output folder settings, progress states, and task cancellation.
 
 ## Requirements
@@ -137,6 +147,13 @@ python PPT.py
 4. Generate and review the outline, then create the final PPT.
 5. In chart mode, select an Excel file, chart type, and output format.
 
+Outline linting:
+
+```bash
+python scripts/outline_lint.py outline.md
+python scripts/outline_lint.py outline.md --json
+```
+
 ## Security Notes
 
 API keys should not be hardcoded or committed to the repository. This version reads the key from the `DEEPSEEK_API_KEY` environment variable. If a real key appeared in repository history, revoke it in the provider console and create a new one.
@@ -146,6 +163,7 @@ API keys should not be hardcoded or committed to the repository. This version re
 ```text
 main.py                 Integrated desktop application
 PPT.py                  Legacy PPT generation entry point
+scripts/outline_lint.py Markdown outline linting utility
 template_*.pptx         Presentation templates
 data_init/              UI images and startup assets
 output/                 Example or generated outputs
