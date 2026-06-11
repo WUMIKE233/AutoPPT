@@ -16,7 +16,7 @@ from pathlib import Path
 HEADING_RE = re.compile(r"^(#{1,6})\s+(.+?)\s*$")
 
 
-def lint_outline(path: str | Path) -> dict:
+def lint_outline(path: str | Path, *, min_slides: int | None = None, max_slides: int | None = None) -> dict:
     source = Path(path)
     text = source.read_text(encoding="utf-8")
     headings: list[dict] = []
@@ -64,10 +64,29 @@ def lint_outline(path: str | Path) -> dict:
         )
 
     slide_candidates = [heading for heading in headings if heading["level"] <= 2]
+    estimated_slides = max(1, len(slide_candidates))
+    if min_slides is not None and estimated_slides < min_slides:
+        issues.append(
+            {
+                "line": 1,
+                "type": "too-few-slides",
+                "message": f"Estimated slides {estimated_slides} is below minimum {min_slides}.",
+            }
+        )
+    if max_slides is not None and estimated_slides > max_slides:
+        issues.append(
+            {
+                "line": 1,
+                "type": "too-many-slides",
+                "message": f"Estimated slides {estimated_slides} is above maximum {max_slides}.",
+            }
+        )
     return {
         "path": str(source),
         "heading_count": len(headings),
-        "estimated_slides": max(1, len(slide_candidates)),
+        "estimated_slides": estimated_slides,
+        "min_slides": min_slides,
+        "max_slides": max_slides,
         "issues": issues,
         "ok": len(issues) == 0,
     }
@@ -92,9 +111,11 @@ def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description="Validate a Markdown outline before PPT generation.")
     parser.add_argument("outline", help="Path to a UTF-8 Markdown outline.")
     parser.add_argument("--json", action="store_true", help="Print machine-readable JSON.")
+    parser.add_argument("--min-slides", type=int, help="Require at least this many estimated slides.")
+    parser.add_argument("--max-slides", type=int, help="Require no more than this many estimated slides.")
     args = parser.parse_args(argv)
 
-    report = lint_outline(args.outline)
+    report = lint_outline(args.outline, min_slides=args.min_slides, max_slides=args.max_slides)
     if args.json:
         print(json.dumps(report, ensure_ascii=False, indent=2))
     else:

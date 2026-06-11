@@ -67,6 +67,7 @@ python PPT.py
 ```bash
 python scripts/outline_lint.py outline.md
 python scripts/outline_lint.py outline.md --json
+python scripts/outline_lint.py outline.md --min-slides 6 --max-slides 20
 ```
 
 ## 安全说明
@@ -152,6 +153,7 @@ Outline linting:
 ```bash
 python scripts/outline_lint.py outline.md
 python scripts/outline_lint.py outline.md --json
+python scripts/outline_lint.py outline.md --min-slides 6 --max-slides 20
 ```
 
 ## Security Notes
