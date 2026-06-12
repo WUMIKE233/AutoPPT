@@ -20,8 +20,12 @@
 name: Build and Deploy to ACK
 
 on:
-  push:
-    branches: [ "main" ]
+  workflow_dispatch:
+    inputs:
+      confirm_deploy:
+        description: "Type deploy after Dockerfile, ACR values, ACK values, and secrets are configured."
+        required: true
+        default: "dry-run"
 
 # Environment variables available to all jobs and steps in this workflow.
 env:
@@ -43,13 +47,32 @@ permissions:
   contents: read
 
 jobs:
+  configuration-note:
+    if: ${{ inputs.confirm_deploy != 'deploy' }}
+    runs-on: ubuntu-latest
+    steps:
+    - name: Explain manual ACK deployment
+      run: |
+        echo "ACK deployment is manual because this desktop project currently has no Dockerfile or Kubernetes manifest."
+        echo "The GitHub Pages workflow remains the automatic deployment path for pushes to main."
+        echo "To run this workflow, configure ACR/ACK values and secrets, add deployment assets, then rerun with confirm_deploy=deploy."
+
   build:
+    if: ${{ inputs.confirm_deploy == 'deploy' }}
     runs-on: ubuntu-latest
     environment: production
 
     steps:
     - name: Checkout
       uses: actions/checkout@v4
+
+    - name: Validate ACK deployment assets
+      run: |
+        test -f Dockerfile || { echo "::error::Dockerfile is required before running ACK deployment."; exit 1; }
+        if [ "$NAMESPACE" = "namespace" ] || [ "$IMAGE" = "repo" ] || [ "$ACK_CLUSTER_ID" = "clusterID" ]; then
+          echo "::error::Replace the template ACR/ACK environment values before deploying."
+          exit 1
+        fi
 
     # 1.1 Login to ACR
     - name: Login to ACR with the AccessKey pair
